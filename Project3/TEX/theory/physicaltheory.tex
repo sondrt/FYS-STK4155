@@ -10,7 +10,7 @@ The \textbf{SIRS} model considers an isolated population $N$, that consists of t
 
 These variables (\textbf{S, I, R}) represent the number of people in each compartment, and since the size of these are dependent on time, we make the precise number a function of time.($ \textbf{S}(t), \textbf{I}(t), \textbf{R}(y)$). For a specific disease in a specific population, these functions can be worked out to predict possible outbreaks and perhaps bring them under control. 
 
-The model is dynamic in that the number in each compartment may change over time. This is dynamic aspect is most obvious in an endemic disease. The main difference between the SIRS model and the SIR model is the fact that in the SIR model a member of the population can never join the susceptible group, ($S(t)$), again after leaving, such as the disease measles. This type of disease can not break out again until the number of susceptible people has built back up. While in the SIRS model, you can "lose" your immunity to the disease. A person can move from one group to another as indicated in the figure \ref{fig:SIRS} below.
+The model is dynamic in that the number in each compartment may change over time. This is dynamic aspect is most obvious in an endemic disease. The main difference between the SIRS model and the SIR model is the fact that in the SIR model a member of the population can never join the susceptible group, ($S(t)$), again after leaving, such as the disease measles. This type of disease can not break out again until the number of susceptible people has built back up. While in the SIRS model, you can lose your immunity to the disease. A person can move from one group to another as indicated in the figure \ref{fig:SIRS} below.
 
 	The rate of transmission $a$, the rate of recovery $b$ and the rate of immunity lose $c$, helps describing the flow of people moving between the groups. The group is assumed to be mixed homogeneously and the total population remains constant.
 	
@@ -48,7 +48,7 @@ If we assume that the time scale is much smaller than the average person's lifet
 \end{align}
 
 
-Though this set does not have a analytic solution, the equilibrium solutions are simple to obtain. The constrain \ref{eq1} reduces the three dimensional system into a two dimensional one.
+Though this set does not have a analytic solution, the equilibrium solutions are simple to obtain.
 
 \begin{align}
 \frac{dS}{dT} &= c(N-S-I) - \frac{aSI}{N} \\

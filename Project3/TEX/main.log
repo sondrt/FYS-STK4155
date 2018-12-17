@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.8.25)  17 DEC 2018 11:52
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.8.25)  17 DEC 2018 12:35
  \write18 enabled.
  file:line:error style messages enabled.
 **main.tex
@@ -1518,14 +1518,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count378
 
-<mnfrontpage-images/mnfrontpage-bg-web-8.pdf, id=111, 639.8304pt x 886.99379pt>
+<mnfrontpage-images/mnfrontpage-bg-web-8.pdf, id=103, 639.8304pt x 886.99379pt>
 File: mnfrontpage-images/mnfrontpage-bg-web-8.pdf Graphic file (type pdf)
 <use mnfrontpage-images/mnfrontpage-bg-web-8.pdf>
 Package pdftex.def Info: mnfrontpage-images/mnfrontpage-bg-web-8.pdf used on inp
 ut line 8.
 (pdftex.def)             Requested size: 639.82883pt x 886.99162pt.
 
-<mnfrontpage-images/mnfrontpage-apollon.pdf, id=112, 142.5325pt x 142.5325pt>
+<mnfrontpage-images/mnfrontpage-apollon.pdf, id=104, 142.5325pt x 142.5325pt>
 File: mnfrontpage-images/mnfrontpage-apollon.pdf Graphic file (type pdf)
 
 <use mnfrontpage-images/mnfrontpage-apollon.pdf>
@@ -1533,7 +1533,7 @@ Package pdftex.def Info: mnfrontpage-images/mnfrontpage-apollon.pdf used on inpu
 t line 8.
 (pdftex.def)             Requested size: 76.82243pt x 76.82285pt.
 
-<mnfrontpage-images/mnfrontpage-logo-kjm-bm.pdf, id=113, 755.82375pt x 74.2775p
+<mnfrontpage-images/mnfrontpage-logo-kjm-bm.pdf, id=105, 755.82375pt x 74.2775p
 t>
 File: mnfrontpage-images/mnfrontpage-logo-kjm-bm.pdf Graphic file (type pdf)
  <use mnfrontpage-images/mnfrontpage-logo-kjm-bm.pdf>
@@ -1574,20 +1574,16 @@ LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <10> not available
 \tf@toc=\write6
 
 \openout6 = main.toc
- (./abstract/abstract.tex
 
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 5.
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 29.
 
 LuaTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 een already used, duplicate ignored
 <to be read again> 
 \relax 
-l.5 
-   [1])
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 30.
-
-[2] (./theory/physicaltheory.tex
+l.29 
+    [1] (./theory/physicaltheory.tex
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <12> not available
 (Font)              Font shape `T1/pnc/b/n' tried instead on input line 1.
 LaTeX Font Info:    Try loading font information for TS1+pnc on input line 6.
@@ -1599,25 +1595,22 @@ Missing character: There is no   (U+00A0) in font cmr10!
 Missing character: There is no   (U+00A0) in font cmr10!
 
 
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 48.
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 48.
+
+[2]
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 83.
 
 [3]
 
-LaTeX Warning: Reference `eq1' on page 4 undefined on input line 51.
-
-
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 83.
-
-[4]
-
-LaTeX Warning: Citation 'zaman2008stability' on page 5 undefined on input line 9
+LaTeX Warning: Citation 'zaman2008stability' on page 4 undefined on input line 9
 0.
 
 ) (./theory/computationaltheory.tex
 
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 27.
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 27.
 
-[5]
+[4]
 Missing character: There is no   (U+00A0) in font cmr10!
 Missing character: There is no   (U+00A0) in font cmr10!
 Missing character: There is no   (U+00A0) in font cmr10!
@@ -1628,45 +1621,45 @@ Overfull \hbox (13.80272pt too wide) in paragraph at lines 49--49
  []
 
 
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 65.
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 65.
 
-[6]
+[5]
 
-LaTeX Warning: Citation 'NumPy' on page 7 undefined on input line 71.
+LaTeX Warning: Citation 'NumPy' on page 6 undefined on input line 71.
 
 
-LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 92.
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 92.
 
-[7])
+[6])
 
-LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 47.
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 46.
 
-[8] (./result/result.tex
+[7] (./result/result.tex
 
-LaTeX Warning: Citation 'Nobody06' on page 9 undefined on input line 4.
+LaTeX Warning: Citation 'Nobody06' on page 8 undefined on input line 4.
 
-<../fig/texfig/RK4_b1T1.png, id=248, 455.301pt x 339.669pt>
+<../fig/texfig/RK4_b1T1.png, id=225, 455.301pt x 339.669pt>
 File: ../fig/texfig/RK4_b1T1.png Graphic file (type png)
 
 <use ../fig/texfig/RK4_b1T1.png>
 Package pdftex.def Info: ../fig/texfig/RK4_b1T1.png used on input line 23.
 (pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
 
-<../fig/texfig/RK4_b2T1.png, id=249, 455.301pt x 339.669pt>
+<../fig/texfig/RK4_b2T1.png, id=226, 455.301pt x 339.669pt>
 File: ../fig/texfig/RK4_b2T1.png Graphic file (type png)
 
 <use ../fig/texfig/RK4_b2T1.png>
 Package pdftex.def Info: ../fig/texfig/RK4_b2T1.png used on input line 29.
 (pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
 
-<../fig/texfig/RK4_b3T1.png, id=250, 455.301pt x 339.669pt>
+<../fig/texfig/RK4_b3T1.png, id=227, 455.301pt x 339.669pt>
 File: ../fig/texfig/RK4_b3T1.png Graphic file (type png)
 
 <use ../fig/texfig/RK4_b3T1.png>
 Package pdftex.def Info: ../fig/texfig/RK4_b3T1.png used on input line 35.
 (pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
 
-<../fig/texfig/RK4_b4T1.png, id=251, 455.301pt x 339.669pt>
+<../fig/texfig/RK4_b4T1.png, id=228, 455.301pt x 339.669pt>
 File: ../fig/texfig/RK4_b4T1.png Graphic file (type png)
 
 <use ../fig/texfig/RK4_b4T1.png>
@@ -1674,30 +1667,30 @@ Package pdftex.def Info: ../fig/texfig/RK4_b4T1.png used on input line 41.
 (pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
 
 
-LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 47.
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 47.
 
-[9] <../fig/newfig/MC_b1T1.pdf, id=261, 462.52798pt x 346.89601pt>
+[8] <../fig/newfig/MC_b1T1.pdf, id=237, 462.52798pt x 346.89601pt>
 File: ../fig/newfig/MC_b1T1.pdf Graphic file (type pdf)
 
 <use ../fig/newfig/MC_b1T1.pdf>
 Package pdftex.def Info: ../fig/newfig/MC_b1T1.pdf used on input line 61.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
-<../fig/newfig/MC_b1T10.pdf, id=262, 462.52798pt x 346.89601pt>
+<../fig/newfig/MC_b1T10.pdf, id=238, 462.52798pt x 346.89601pt>
 File: ../fig/newfig/MC_b1T10.pdf Graphic file (type pdf)
 
 <use ../fig/newfig/MC_b1T10.pdf>
 Package pdftex.def Info: ../fig/newfig/MC_b1T10.pdf used on input line 67.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
-<../fig/newfig/MC_b1T100.pdf, id=263, 462.52798pt x 346.89601pt>
+<../fig/newfig/MC_b1T100.pdf, id=239, 462.52798pt x 346.89601pt>
 File: ../fig/newfig/MC_b1T100.pdf Graphic file (type pdf)
 
 <use ../fig/newfig/MC_b1T100.pdf>
 Package pdftex.def Info: ../fig/newfig/MC_b1T100.pdf used on input line 73.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
-<../fig/newfig/MC_b1T1000.pdf, id=264, 462.52798pt x 346.89601pt>
+<../fig/newfig/MC_b1T1000.pdf, id=240, 462.52798pt x 346.89601pt>
 File: ../fig/newfig/MC_b1T1000.pdf Graphic file (type pdf)
 
 <use ../fig/newfig/MC_b1T1000.pdf>
@@ -1705,37 +1698,37 @@ Package pdftex.def Info: ../fig/newfig/MC_b1T1000.pdf used on input line 79.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
 
-LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 85.
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 85.
 
-[10<../fig/texfig/RK4_b1T1.png><../fig/texfig/RK4_b2T1.png><../fig/texfig/RK4_b3
-T1.png><../fig/texfig/RK4_b4T1.png>]
+[9<../fig/texfig/RK4_b1T1.png><../fig/texfig/RK4_b2T1.png><../fig/texfig/RK4_b3T
+1.png><../fig/texfig/RK4_b4T1.png>]
 File: ../fig/newfig/MC_b1T1.pdf Graphic file (type pdf)
  <use ../fig/newfig/MC_b1T1.pdf>
 Package pdftex.def Info: ../fig/newfig/MC_b1T1.pdf used on input line 93.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
-<../fig/newfig/MC_b2T3.pdf, id=280, 462.52798pt x 346.89601pt>
+<../fig/newfig/MC_b2T3.pdf, id=253, 462.52798pt x 346.89601pt>
 File: ../fig/newfig/MC_b2T3.pdf Graphic file (type pdf)
 
 <use ../fig/newfig/MC_b2T3.pdf>
 Package pdftex.def Info: ../fig/newfig/MC_b2T3.pdf used on input line 99.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
-<../fig/newfig/MC_b3T3.pdf, id=281, 462.52798pt x 346.89601pt>
+<../fig/newfig/MC_b3T3.pdf, id=254, 462.52798pt x 346.89601pt>
 File: ../fig/newfig/MC_b3T3.pdf Graphic file (type pdf)
 
 <use ../fig/newfig/MC_b3T3.pdf>
 Package pdftex.def Info: ../fig/newfig/MC_b3T3.pdf used on input line 105.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
-<../fig/newfig/MC_b4T3.pdf, id=282, 462.52798pt x 346.89601pt>
+<../fig/newfig/MC_b4T3.pdf, id=255, 462.52798pt x 346.89601pt>
 File: ../fig/newfig/MC_b4T3.pdf Graphic file (type pdf)
 
 <use ../fig/newfig/MC_b4T3.pdf>
 Package pdftex.def Info: ../fig/newfig/MC_b4T3.pdf used on input line 111.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
-<../fig/newfig/MCRK4_b1T3.pdf, id=283, 462.52798pt x 346.89601pt>
+<../fig/newfig/MCRK4_b1T3.pdf, id=256, 462.52798pt x 346.89601pt>
 File: ../fig/newfig/MCRK4_b1T3.pdf Graphic file (type pdf)
 
 <use ../fig/newfig/MCRK4_b1T3.pdf>
@@ -1743,16 +1736,16 @@ Package pdftex.def Info: ../fig/newfig/MCRK4_b1T3.pdf used on input line 117.
 (pdftex.def)             Requested size: 271.7835pt x 203.84642pt.
 
 
-LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 123.
+LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 123.
 
-[11<../fig/newfig/MC_b1T1.pdf><../fig/newfig/MC_b1T10.pdf><../fig/newfig/MC_b1T1
+[10<../fig/newfig/MC_b1T1.pdf><../fig/newfig/MC_b1T10.pdf><../fig/newfig/MC_b1T1
 00.pdf><../fig/newfig/MC_b1T1000.pdf>]
 
-LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 127.
+LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 127.
 
-[12<../fig/newfig/MC_b2T3.pdf><../fig/newfig/MC_b3T3.pdf><../fig/newfig/MC_b4T3.
+[11<../fig/newfig/MC_b2T3.pdf><../fig/newfig/MC_b3T3.pdf><../fig/newfig/MC_b4T3.
 pdf><../fig/newfig/MCRK4_b1T3.pdf>]
-<../fig/newfig/RK4_vitalDynamics_d001_dI01_e05.pdf, id=641, 462.52798pt x 346.8
+<../fig/newfig/RK4_vitalDynamics_d001_dI01_e05.pdf, id=614, 462.52798pt x 346.8
 9601pt>
 File: ../fig/newfig/RK4_vitalDynamics_d001_dI01_e05.pdf Graphic file (type pdf)
  <use ../fig/newfig/RK4_vitalDynamics_d001_dI01_e05.pdf>
@@ -1760,7 +1753,7 @@ Package pdftex.def Info: ../fig/newfig/RK4_vitalDynamics_d001_dI01_e05.pdf used
 on input line 134.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
-<../fig/newfig/RK4_vitalDynamics_d001_dI01_e005.pdf, id=642, 462.52798pt x 346.
+<../fig/newfig/RK4_vitalDynamics_d001_dI01_e005.pdf, id=615, 462.52798pt x 346.
 89601pt>
 File: ../fig/newfig/RK4_vitalDynamics_d001_dI01_e005.pdf Graphic file (type pdf)
 
@@ -1769,7 +1762,7 @@ Package pdftex.def Info: ../fig/newfig/RK4_vitalDynamics_d001_dI01_e005.pdf used
  on input line 140.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
-<../fig/newfig/RK4_vitalDynamics_d01_dI30_e05.pdf, id=643, 462.52798pt x 346.89
+<../fig/newfig/RK4_vitalDynamics_d01_dI30_e05.pdf, id=616, 462.52798pt x 346.89
 601pt>
 File: ../fig/newfig/RK4_vitalDynamics_d01_dI30_e05.pdf Graphic file (type pdf)
  <use ../fig/newfig/RK4_vitalDynamics_d01_dI30_e05.pdf>
@@ -1777,7 +1770,7 @@ Package pdftex.def Info: ../fig/newfig/RK4_vitalDynamics_d01_dI30_e05.pdf used o
 n input line 146.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
-<../fig/newfig/RK4_vitalDynamics_d002_dI10_e006.pdf, id=644, 462.52798pt x 346.
+<../fig/newfig/RK4_vitalDynamics_d002_dI10_e006.pdf, id=617, 462.52798pt x 346.
 89601pt>
 File: ../fig/newfig/RK4_vitalDynamics_d002_dI10_e006.pdf Graphic file (type pdf)
 
@@ -1792,7 +1785,7 @@ L/cmm/m/it/9 :\OT1/cmr/m/n/9 006$\T1/pnc/m/n/9 ), low ge-ne-ral
  []
 
 
-<../fig/newfig/MC_vitaldynamic_d0002_dI0004_e0006.pdf, id=645, 462.52798pt x 34
+<../fig/newfig/MC_vitaldynamic_d0002_dI0004_e0006.pdf, id=618, 462.52798pt x 34
 6.89601pt>
 File: ../fig/newfig/MC_vitaldynamic_d0002_dI0004_e0006.pdf Graphic file (type pd
 f)
@@ -1801,7 +1794,7 @@ Package pdftex.def Info: ../fig/newfig/MC_vitaldynamic_d0002_dI0004_e0006.pdf us
 ed on input line 164.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
-<../fig/newfig/MC_vitaldynamic_d00002_dI0001_e00006.pdf, id=646, 462.52798pt x 
+<../fig/newfig/MC_vitaldynamic_d00002_dI0001_e00006.pdf, id=619, 462.52798pt x 
 346.89601pt>
 File: ../fig/newfig/MC_vitaldynamic_d00002_dI0001_e00006.pdf Graphic file (type 
 pdf)
@@ -1810,7 +1803,7 @@ Package pdftex.def Info: ../fig/newfig/MC_vitaldynamic_d00002_dI0001_e00006.pdf
 used on input line 170.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
-<../fig/newfig/MC_vitaldynamic_d00002_dI001_e00006.pdf, id=647, 462.52798pt x 3
+<../fig/newfig/MC_vitaldynamic_d00002_dI001_e00006.pdf, id=620, 462.52798pt x 3
 46.89601pt>
 File: ../fig/newfig/MC_vitaldynamic_d00002_dI001_e00006.pdf Graphic file (type p
 df)
@@ -1819,7 +1812,7 @@ Package pdftex.def Info: ../fig/newfig/MC_vitaldynamic_d00002_dI001_e00006.pdf u
 sed on input line 176.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
-<../fig/newfig/MC_vitaldynamic_d00002_dI003_e00006.pdf, id=648, 462.52798pt x 3
+<../fig/newfig/MC_vitaldynamic_d00002_dI003_e00006.pdf, id=621, 462.52798pt x 3
 46.89601pt>
 File: ../fig/newfig/MC_vitaldynamic_d00002_dI003_e00006.pdf Graphic file (type p
 df)
@@ -1829,18 +1822,18 @@ sed on input line 182.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
 
-LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 188.
+LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 188.
 
-[13<../fig/newfig/RK4_vitalDynamics_d001_dI01_e05.pdf><../fig/newfig/RK4_vitalDy
+[12<../fig/newfig/RK4_vitalDynamics_d001_dI01_e05.pdf><../fig/newfig/RK4_vitalDy
 namics_d001_dI01_e005.pdf><../fig/newfig/RK4_vitalDynamics_d01_dI30_e05.pdf><../
 fig/newfig/RK4_vitalDynamics_d002_dI10_e006.pdf>]
 
-LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 191.
+LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 191.
 
-[14<../fig/newfig/MC_vitaldynamic_d0002_dI0004_e0006.pdf><../fig/newfig/MC_vital
+[13<../fig/newfig/MC_vitaldynamic_d0002_dI0004_e0006.pdf><../fig/newfig/MC_vital
 dynamic_d00002_dI0001_e00006.pdf><../fig/newfig/MC_vitaldynamic_d00002_dI001_e00
 006.pdf><../fig/newfig/MC_vitaldynamic_d00002_dI003_e00006.pdf>]
-<../fig/newfig/Vaccine_A=12_T=5.pdf, id=1019, 462.52798pt x 346.89601pt>
+<../fig/newfig/Vaccine_A=12_T=5.pdf, id=991, 462.52798pt x 346.89601pt>
 File: ../fig/newfig/Vaccine_A=12_T=5.pdf Graphic file (type pdf)
 
 <use ../fig/newfig/Vaccine_A=12_T=5.pdf>
@@ -1848,7 +1841,7 @@ Package pdftex.def Info: ../fig/newfig/Vaccine_A=12_T=5.pdf used on input line 1
 97.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
-<../fig/newfig/Vaccine_A=20_T=5.pdf, id=1020, 462.52798pt x 346.89601pt>
+<../fig/newfig/Vaccine_A=20_T=5.pdf, id=992, 462.52798pt x 346.89601pt>
 File: ../fig/newfig/Vaccine_A=20_T=5.pdf Graphic file (type pdf)
 
 <use ../fig/newfig/Vaccine_A=20_T=5.pdf>
@@ -1856,14 +1849,14 @@ Package pdftex.def Info: ../fig/newfig/Vaccine_A=20_T=5.pdf used on input line 2
 03.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
-<../fig/newfig/MCSV_A=12T=5.pdf, id=1021, 462.52798pt x 346.89601pt>
+<../fig/newfig/MCSV_A=12T=5.pdf, id=993, 462.52798pt x 346.89601pt>
 File: ../fig/newfig/MCSV_A=12T=5.pdf Graphic file (type pdf)
 
 <use ../fig/newfig/MCSV_A=12T=5.pdf>
 Package pdftex.def Info: ../fig/newfig/MCSV_A=12T=5.pdf used on input line 209.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
-<../fig/newfig/MCSV_A=20T=5.pdf, id=1022, 462.52798pt x 346.89601pt>
+<../fig/newfig/MCSV_A=20T=5.pdf, id=994, 462.52798pt x 346.89601pt>
 File: ../fig/newfig/MCSV_A=20T=5.pdf Graphic file (type pdf)
 
 <use ../fig/newfig/MCSV_A=20T=5.pdf>
@@ -1871,11 +1864,11 @@ Package pdftex.def Info: ../fig/newfig/MCSV_A=20T=5.pdf used on input line 215.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
 
-LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 226.
+LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 226.
 
-[15<../fig/newfig/Vaccine_A=12_T=5.pdf><../fig/newfig/Vaccine_A=20_T=5.pdf><../f
+[14<../fig/newfig/Vaccine_A=12_T=5.pdf><../fig/newfig/Vaccine_A=20_T=5.pdf><../f
 ig/newfig/MCSV_A=12T=5.pdf><../fig/newfig/MCSV_A=20T=5.pdf>]
-<../fig/newfig/MC_onlyvaccineT=5f=40.pdf, id=1209, 462.52798pt x 346.89601pt>
+<../fig/newfig/MC_onlyvaccineT=5f=40.pdf, id=1180, 462.52798pt x 346.89601pt>
 File: ../fig/newfig/MC_onlyvaccineT=5f=40.pdf Graphic file (type pdf)
 
 <use ../fig/newfig/MC_onlyvaccineT=5f=40.pdf>
@@ -1883,7 +1876,7 @@ Package pdftex.def Info: ../fig/newfig/MC_onlyvaccineT=5f=40.pdf used on input l
 ine 232.
 (pdftex.def)             Requested size: 135.89174pt x 101.92056pt.
 
-<../fig/newfig/MC_vaccine_SVA=4_T=5f=40_notiming.pdf, id=1210, 462.52798pt x 34
+<../fig/newfig/MC_vaccine_SVA=4_T=5f=40_notiming.pdf, id=1181, 462.52798pt x 34
 6.89601pt>
 File: ../fig/newfig/MC_vaccine_SVA=4_T=5f=40_notiming.pdf Graphic file (type pdf
 )
@@ -1892,7 +1885,7 @@ Package pdftex.def Info: ../fig/newfig/MC_vaccine_SVA=4_T=5f=40_notiming.pdf use
 d on input line 238.
 (pdftex.def)             Requested size: 135.89174pt x 101.92056pt.
 
-<../fig/newfig/MC_vaccine_SVA=4_T=5f=40_timing.pdf, id=1211, 462.52798pt x 346.
+<../fig/newfig/MC_vaccine_SVA=4_T=5f=40_timing.pdf, id=1182, 462.52798pt x 346.
 89601pt>
 File: ../fig/newfig/MC_vaccine_SVA=4_T=5f=40_timing.pdf Graphic file (type pdf)
  <use ../fig/newfig/MC_vaccine_SVA=4_T=5f=40_timing.pdf>
@@ -1900,7 +1893,7 @@ Package pdftex.def Info: ../fig/newfig/MC_vaccine_SVA=4_T=5f=40_timing.pdf used
 on input line 244.
 (pdftex.def)             Requested size: 135.89174pt x 101.92056pt.
 
-<../fig/newfig/RK4Vaccine_f=40_T=5.pdf, id=1212, 462.52798pt x 346.89601pt>
+<../fig/newfig/RK4Vaccine_f=40_T=5.pdf, id=1183, 462.52798pt x 346.89601pt>
 File: ../fig/newfig/RK4Vaccine_f=40_T=5.pdf Graphic file (type pdf)
 
 <use ../fig/newfig/RK4Vaccine_f=40_T=5.pdf>
@@ -1908,7 +1901,7 @@ Package pdftex.def Info: ../fig/newfig/RK4Vaccine_f=40_T=5.pdf used on input lin
 e 250.
 (pdftex.def)             Requested size: 135.89174pt x 101.92056pt.
 
-<../fig/newfig/RK4Vaccine_SVA=2_f=40_T=5.pdf, id=1213, 462.52798pt x 346.89601p
+<../fig/newfig/RK4Vaccine_SVA=2_f=40_T=5.pdf, id=1184, 462.52798pt x 346.89601p
 t>
 File: ../fig/newfig/RK4Vaccine_SVA=2_f=40_T=5.pdf Graphic file (type pdf)
  <use ../fig/newfig/RK4Vaccine_SVA=2_f=40_T=5.pdf>
@@ -1916,7 +1909,7 @@ Package pdftex.def Info: ../fig/newfig/RK4Vaccine_SVA=2_f=40_T=5.pdf used on inp
 ut line 256.
 (pdftex.def)             Requested size: 135.89174pt x 101.92056pt.
 
-<../fig/newfig/RK4Vaccine_SVA=4_f=40_T=5_timing.pdf, id=1214, 462.52798pt x 346
+<../fig/newfig/RK4Vaccine_SVA=4_f=40_T=5_timing.pdf, id=1185, 462.52798pt x 346
 .89601pt>
 File: ../fig/newfig/RK4Vaccine_SVA=4_f=40_T=5_timing.pdf Graphic file (type pdf)
 
@@ -1927,40 +1920,31 @@ Package pdftex.def Info: ../fig/newfig/RK4Vaccine_SVA=4_f=40_T=5_timing.pdf used
 )
 (./conclusion/conclusion.tex)
 
-LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 56.
+LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 55.
 
-[16<../fig/newfig/MC_onlyvaccineT=5f=40.pdf><../fig/newfig/MC_vaccine_SVA=4_T=5f
+[15<../fig/newfig/MC_onlyvaccineT=5f=40.pdf><../fig/newfig/MC_vaccine_SVA=4_T=5f
 =40_notiming.pdf><../fig/newfig/MC_vaccine_SVA=4_T=5f=40_timing.pdf><../fig/newf
 ig/RK4Vaccine_f=40_T=5.pdf><../fig/newfig/RK4Vaccine_SVA=2_f=40_T=5.pdf><../fig/
 newfig/RK4Vaccine_SVA=4_f=40_T=5_timing.pdf>]
-Overfull \hbox (5.03339pt too wide) in paragraph at lines 63--64
+Overfull \hbox (5.03339pt too wide) in paragraph at lines 62--63
 [][]\T1/pnc/m/n/10 Ramachand-ran, Prajit, Bar-ret Zoph, and Quoc V. Le. SS-ear-
 ching for ac-ti-va-tion func-tions."(2018).[] 
  []
 
 
-LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 169.
+LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 168.
 
-[17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
+[16]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: C9D107EFB91B1223305641A766755CCE;1770.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 90F3E139F39220D779A9CCCF2BCC6FD9;1862
-(rerunfilecheck)             After:  B91805686DC5661266AD7F594A52E45E;1814.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -1970,69 +1954,18 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
 )
 
 Here is how much of LuaTeX's memory you used:
- 36639 strings out of 494693
+ 36608 strings out of 494693
  125200,1144653 words of node,token memory allocated
- 514 words of node memory still in use:
+ 508 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 54 glue_spec, 1 write nodes
-   avail lists: 1:1,2:33,3:315,4:989,5:257,6:3061,7:82,8:30,9:913,10:295
- 38810 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:34,3:316,4:989,5:257,6:3061,7:82,8:27,9:913,10:295
+ 38807 multiletter control sequences out of 65536+600000
  95 fonts using 3741963 bytes
  64i,12n,56p,1253b,1581s stack positions out of 5000i,500n,10000p,200000b,100000s
-LuaTeX warning (dest): name{equation.5.20} has been referenced but does not exis
-t, replaced by a fixed one
-
-LuaTeX warning (dest): name{equation.5.19} has been referenced but does not exis
-t, replaced by a fixed one
-
-LuaTeX warning (dest): name{section.8} has been referenced but does not exist, r
-eplaced by a fixed one
-
-LuaTeX warning (dest): name{subsubsection.6.2.3} has been referenced but does no
-t exist, replaced by a fixed one
-
-LuaTeX warning (dest): name{subsubsection.6.2.2} has been referenced but does no
-t exist, replaced by a fixed one
-
-LuaTeX warning (dest): name{subsubsection.6.2.1} has been referenced but does no
-t exist, replaced by a fixed one
-
-LuaTeX warning (dest): name{subsection.6.2} has been referenced but does not exi
-st, replaced by a fixed one
-
-LuaTeX warning (dest): name{subsubsection.6.1.4} has been referenced but does no
-t exist, replaced by a fixed one
-
-LuaTeX warning (dest): name{subsubsection.6.1.3} has been referenced but does no
-t exist, replaced by a fixed one
-
-LuaTeX warning (dest): name{subsubsection.6.1.2} has been referenced but does no
-t exist, replaced by a fixed one
-
-LuaTeX warning (dest): name{subsubsection.6.1.1} has been referenced but does no
-t exist, replaced by a fixed one
-
-LuaTeX warning (dest): name{subsection.6.1} has been referenced but does not exi
-st, replaced by a fixed one
-
-LuaTeX warning (dest): name{subsection.5.3} has been referenced but does not exi
-st, replaced by a fixed one
-
-LuaTeX warning (dest): name{subsubsection.4.2.3} has been referenced but does no
-t exist, replaced by a fixed one
-
-LuaTeX warning (dest): name{subsubsection.4.2.2} has been referenced but does no
-t exist, replaced by a fixed one
-
-LuaTeX warning (dest): name{subsubsection.4.2.1} has been referenced but does no
-t exist, replaced by a fixed one
-
-LuaTeX warning (dest): name{subsubsection.4.1.1} has been referenced but does no
-t exist, replaced by a fixed one
-
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}<</usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><</usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><</usr/local/texliv
@@ -2046,10 +1979,10 @@ dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><</usr/local/texlive/2015/texmf-di
 st/fonts/type1/urw/helvetic/uhvb8a.pfb><</usr/local/texlive/2015/texmf-dist/font
 s/type1/urw/ncntrsbk/uncb8a.pfb><</usr/local/texlive/2015/texmf-dist/fonts/type1
 /urw/ncntrsbk/uncr8a.pfb>
-Output written on main.pdf (18 pages, 1361758 bytes).
+Output written on main.pdf (17 pages, 1360161 bytes).
 
-PDF statistics: 1540 PDF objects out of 1728 (max. 8388607)
- 602 compressed objects within 7 object streams
- 90 named destinations out of 1000 (max. 131072)
- 224 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 1509 PDF objects out of 1728 (max. 8388607)
+ 573 compressed objects within 6 object streams
+ 71 named destinations out of 1000 (max. 131072)
+ 208 words of extra memory for PDF output out of 10000 (max. 10000000)
 

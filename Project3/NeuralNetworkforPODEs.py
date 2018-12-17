@@ -164,7 +164,7 @@ plt.clf()
 t = np.linspace(0, 10, 25).reshape((-1, 1))
 params = init_random_params(0.01, layer_sizes=[1, 1000, 3])
 i = 0    # number of training steps
-N = 701  # epochs for training
+N = 10001  # epochs for training
 et = 0.0 # total elapsed time
 
 def objective(params, step):
@@ -193,7 +193,7 @@ import time
 t0 = time.time()
 
 params = adam(grad(objective), params,
-              step_size=0.01, num_iters=N, callback=callback)
+              step_size=0.001, num_iters=N, callback=callback)
 
 i += N
 t1 = (time.time() - t0) / 60
