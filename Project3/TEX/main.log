@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.8.25)  17 DEC 2018 16:52
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.8.25)  17 DEC 2018 16:58
  \write18 enabled.
  file:line:error style messages enabled.
 **main.tex
@@ -1933,30 +1933,40 @@ Overfull \hbox (5.03339pt too wide) in paragraph at lines 62--63
 ching for ac-ti-va-tion func-tions."(2018).[] 
  []
 
-(./appendix/appendix.tex)
+(./appendix/appendix.tex
 
-LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 168.
+LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 101.
 
 [16]
 
-LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 168.
+LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 101.
 
 [17]
-Overfull \vbox (69.03561pt too high) has occurred while \output is active []
+Overfull \vbox (2.68071pt too high) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `LastPage' on page 18 undefined on input line 168.
+LaTeX Warning: Reference `LastPage' on page 18 undefined on input line 101.
 
-[18]
+[18])
+
+LaTeX Warning: Reference `LastPage' on page 19 undefined on input line 168.
+
+[19]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 753FC0C9B8F9743C8839E28B4FD27D15;1814.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 753FC0C9B8F9743C8839E28B4FD27D15;1814
+(rerunfilecheck)             After:  083B29F605BB51BA5504F574D00C3687;1898.
 
 LaTeX Warning: There were undefined references.
 
@@ -1972,11 +1982,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
 )
 
 Here is how much of LuaTeX's memory you used:
- 36624 strings out of 494693
+ 36626 strings out of 494693
  125200,1144653 words of node,token memory allocated
- 509 words of node memory still in use:
+ 510 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 54 glue_spec, 1 write nodes
-   avail lists: 1:1,2:33,3:315,4:3314,5:369,6:3014,7:838,8:28,9:861,10:269
+   avail lists: 1:1,2:33,3:316,4:2941,5:325,6:3014,7:733,8:28,9:861,10:269
  38812 multiletter control sequences out of 65536+600000
  95 fonts using 3741963 bytes
  64i,12n,56p,1253b,1581s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -1993,10 +2003,10 @@ dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><</usr/local/texlive/2015/texmf-di
 st/fonts/type1/urw/helvetic/uhvb8a.pfb><</usr/local/texlive/2015/texmf-dist/font
 s/type1/urw/ncntrsbk/uncb8a.pfb><</usr/local/texlive/2015/texmf-dist/fonts/type1
 /urw/ncntrsbk/uncr8a.pfb>
-Output written on main.pdf (19 pages, 1094923 bytes).
+Output written on main.pdf (20 pages, 1094985 bytes).
 
-PDF statistics: 970 PDF objects out of 1000 (max. 8388607)
- 440 compressed objects within 5 object streams
- 74 named destinations out of 1000 (max. 131072)
+PDF statistics: 975 PDF objects out of 1000 (max. 8388607)
+ 444 compressed objects within 5 object streams
+ 76 named destinations out of 1000 (max. 131072)
  216 words of extra memory for PDF output out of 10000 (max. 10000000)
 
