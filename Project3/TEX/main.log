@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.8.25)  17 DEC 2018 19:55
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.8.25)  17 DEC 2018 20:01
  \write18 enabled.
  file:line:error style messages enabled.
 **main.tex
@@ -2074,15 +2074,7 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><</usr/local/texlive/
 15/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><</usr/local/texlive/2015
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><</usr/local/texlive/2015/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><</usr/local/texlive/2015/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><</usr/local/texlive/2015/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><</usr/local/texlive/2015/texmf-di
-st/fonts/type1/urw/helvetic/uhvb8a.pfb><</usr/local/texlive/2015/texmf-dist/font
-s/type1/urw/ncntrsbk/uncb8a.pfb><</usr/local/texlive/2015/texmf-dist/fonts/type1
-/urw/ncntrsbk/uncr8a.pfb>
-Output written on main.pdf (19 pages, 1215427 bytes).
-
-PDF statistics: 1310 PDF objects out of 1440 (max. 8388607)
- 531 compressed objects within 6 object streams
- 77 named destinations out of 1000 (max. 131072)
- 208 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+!LuaTeX error (file /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb): fflush() failed (Broken pipe)
+ ==> Fatal error occurred, no output PDF file produced!
