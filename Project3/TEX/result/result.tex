@@ -47,6 +47,66 @@ The simplest form of SIRS models differential equations solved with 4th order Ru
 
 \subsubsection{Neural networks}
 
+	 \begin{figure}[H]
+	     \centering
+	     \begin{subfigure}{0.5\textwidth}
+	         \centering
+	         \includegraphics[width=\linewidth]{result/Resultater_supervised/tanh_1000_100_001.pdf}
+	         \caption{0.001 Step size for tanh activation function}
+	     \end{subfigure}%
+	     ~ 
+	     \begin{subfigure}{0.5\textwidth}
+	         \centering
+	         \includegraphics[width=\linewidth]{result/Resultater_supervised/tanh_1000_100_01.pdf}
+	         \caption{0.01 Step size for tanh activation function}
+	     \end{subfigure}
+	     \caption{The step size is an important parameter for obtaining results with the correct shape}
+	     \label{fig:step size}
+	 \end{figure}
+ 	When comparing the neural network solutions for a varying step size we see that the shape of the fit is highly dependent on this parameter. In figure \ref{fig:step size} the number of nodes and epochs and was 1000 and 100 respectively. The activation function used was in this case tanh. Even though a high number of nodes and epochs allows for a better over all result, this can only partially cover up for a poor step size as the total amount of calculations increases and the program can end up being to costly from a computational points of view. The two plots above indicate the importance of having at least a decent step size so that reasonable efficiency can be achieved.
+
+	 \begin{figure}[H]
+	\centering
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{result/Resultater_supervised/arctan_1000_100_0001.pdf}
+		\caption{100 epochs for the arctan activation function}
+	\end{subfigure}%
+	~ 
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{result/Resultater_supervised/arctan_1000_1000_0001.pdf}
+		\caption{1000 epochs for the arctan activation function}
+	\end{subfigure}
+	\caption{The number of epochs is an important parameter for obtaining results with correct magnitude and initial values}
+	%\label{fig:tc-E-M}
+	\end{figure}
+
+	\begin{figure}[H]
+	\centering
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{result/Resultater_supervised/arctan_100_1000_0001.pdf}
+		\caption{Using arctan as the activation function}
+	\end{subfigure}%
+	~ 
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{result/Resultater_supervised/swish_100_1000_0001.pdf}
+		\caption{Using swish as the activation function}
+	\end{subfigure}
+	%\label{fig:tc-E-M}
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{result/Resultater_supervised/tanh_100_1000_0001.pdf}
+		\caption{Using tanh as the activation function}
+	\end{subfigure}
+	\caption{At lower values for number of nodes, epochs and step sizes the differences in the activation functions are more prominent. The swish function, although the most accurate, adopts a more linear nature in this domain.}
+	\end{figure}
+	
+	For many, many more figures and a full overview of the R2-score and MSE for each run, see; \href{https://github.com/sondrt/FYS-STK4155/tree/master/Project3/TEX/result}{github}.
+ 
+
 
 
 

@@ -13,17 +13,15 @@
 \contentsline {subsection}{\numberline {3.1}4h order Runge-Kutta}{5}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Monte Carlo Simulation}{6}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Neural networks}{6}{subsection.3.3}
-\contentsline {section}{\numberline {4}Result \& Discussion}{8}{section.4}
-\contentsline {subsection}{\numberline {4.1}SIRS modelling}{8}{subsection.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}4th order Runge-Kutta on the ODEs from SIRS, testing recovery rate.}{8}{subsubsection.4.1.1}
+\contentsline {section}{\numberline {4}Result \& Discussion}{7}{section.4}
+\contentsline {subsection}{\numberline {4.1}SIRS modelling}{7}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}4th order Runge-Kutta on the ODEs from SIRS, testing recovery rate.}{7}{subsubsection.4.1.1}
 \contentsline {subsubsection}{\numberline {4.1.2}Neural networks}{9}{subsubsection.4.1.2}
-\contentsline {subsubsection}{\numberline {4.1.3}Monte Carlo simulation of simple SIRS model, using different time.}{9}{subsubsection.4.1.3}
-\contentsline {subsubsection}{\numberline {4.1.4}Monte Carlo simulation of simple SIRS model, testing recovery rate}{10}{subsubsection.4.1.4}
-\contentsline {subsection}{\numberline {4.2}SIRS modelling with Improvements}{12}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}Vital dynamics}{12}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2}Seasonal Variation}{14}{subsubsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.3}Vaccination}{15}{subsubsection.4.2.3}
-\contentsline {section}{\numberline {5}Conclusion}{15}{section.5}
-\contentsline {section}{\numberline {6}References:}{16}{section.6}
-\contentsline {section}{\numberline {7}Appendix}{18}{section.7}
-\contentsline {subsection}{\numberline {7.1}Supervised Learning, some results:}{18}{subsection.7.1}
+\contentsline {subsubsection}{\numberline {4.1.3}Monte Carlo simulation of simple SIRS model, using different time.}{10}{subsubsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.4}Monte Carlo simulation of simple SIRS model, testing recovery rate}{11}{subsubsection.4.1.4}
+\contentsline {subsection}{\numberline {4.2}SIRS modelling with Improvements}{13}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Vital dynamics}{13}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Seasonal Variation}{15}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Vaccination}{16}{subsubsection.4.2.3}
+\contentsline {section}{\numberline {5}Conclusion}{16}{section.5}
+\contentsline {section}{\numberline {6}References:}{17}{section.6}

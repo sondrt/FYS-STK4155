@@ -73,7 +73,7 @@ This project consists of different cases with a different degree of complexity. 
 \begin{itemize}
 	\item Chose a transition state randomly.
 	\item Find the probability for the transition.
-	\item A RNG is used to chose a number between $(0-1)$. Now if the probability term is less then the RNG number, reject the transition. If not, accept the tranistion.
+	\item A RNG is used to chose a number between $(0-1)$. Now if the probability term is less then the RNG number, reject the transition. If not, accept the transition.
 	\item Update the system with the transferred states.
 \end{itemize}
 
@@ -81,9 +81,9 @@ This project consists of different cases with a different degree of complexity. 
 
 \subsection{Neural networks}
 
-First of all we wanted to make sure that we could  train the neural network(NN) to reproduce the RK4 solution. This is certainly a prerequisite toe the idea working. The NN will here output three values, one for each concentration. We also chose to use the Swish function due to this article \ref{ref:3}. We later tested for OTHER.
+	First of all we wanted to make sure that we could  train the neural network(NN) to reproduce the RK4 solution. This is certainly a prerequisite to the idea working. The NN will here output three values, one for each concentration. We chose to use the Swish function due to this article \ref{ref:3}. We also tested for the $\tan$ and the $\arctan$ activation functions.
 	
-	We then trained our network to reproduce the solution, one layer network with 8 nodes to output all three concentrations pretty accurately. This confirmed that the solution could be represented by a neural network. (Se the section for results) REF.
+	We then trained our network to reproduce the solution, one layer network with 8 nodes to output all three concentrations pretty accurately. This confirmed that the solution could be represented by a neural network.
 	
 	The next major issue is how do we get the relevant derivatives. The solution method developed here relies on using optimization to find a set of weights that produces a NN whose derivatives are consistent with the ODE equation.
 	The NN outputs three concentrations, and we need the time derivatives of them. In Autograd we found three options; grad, elementwise\_grad and Jacobian. We cannot use grad because our function is not scalar. We cannot use elementwise\_grad because that would give us the wrong shape. This left us with one option. This was a little weird because it gave an output that was 4-dimensional, as expected from the documentation, the first and third output where related to our time steps, then we used some fancy sorting to see if the data was comparable to the derivatives defined by the ODEs. This was inefficient, due to it requiring a lot of calculations to create the jacobian.
