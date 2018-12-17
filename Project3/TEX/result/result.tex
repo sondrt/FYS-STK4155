@@ -58,64 +58,64 @@ The simplest form of SIRS models differential equations solved with 4th order Ru
     \centering
     \begin{subfigure}{0.49\textwidth}
         \centering
-        \includegraphics[width=\linewidth]{../fig/newfig/MC_b1T1.pdf}
+        \includegraphics[width=\linewidth]{../fig/texfig/MC_T1.png}
         \caption{$T = 1$}
     \end{subfigure}%
      ~ 
     \begin{subfigure}{0.49\textwidth}
          \centering
-         \includegraphics[width=\linewidth]{../fig/newfig/MC_b1T10.pdf}
+         \includegraphics[width=\linewidth]{../fig/texfig/MC_T10.png}
          \caption{$T = 10$}
     \end{subfigure}
      ~ 
     \begin{subfigure}{0.49\textwidth}
          \centering
-         \includegraphics[width=\linewidth]{../fig/newfig/MC_b1T100.pdf}
+         \includegraphics[width=\linewidth]{../fig/texfig/MC_T100.png}
          \caption{$T = 100$}
     \end{subfigure}
      ~ 
     \begin{subfigure}{0.49\textwidth}
          \centering
-         \includegraphics[width=\linewidth]{../fig/newfig/MC_b1T1000.pdf}
+         \includegraphics[width=\linewidth]{../fig/texfig/MC_T1000.png}
          \caption{$T = 1000$}
     \end{subfigure}
-    \caption{}
+    \caption{Monte Carlo simulation of the simple SIRS model, the dotted lines are the equilibrium values and the dot-dashed lines are the mean of the functions. As we can see from the plot they vary }
     \label{fig:MCb1Tchanges}
 \end{figure}
 
 \subsubsection{Monte Carlo simulation of simple SIRS model, testing recovery rate}
-	In these figures we notice something spectacular! The program crashes at higher recovery rate! This is due to the fact that there are noe more infected people at some point in the program, and there is no reason to track a infections development if there is no infection. It is a theoretical steady - state for the recovery rate,$b$,- values that are smaller then the transmission rate ,$a$, -values, but due to the randomness of the Monte Carlo Simulations the infection tend to die out by itself, which makes a lot of sense. 
+	In these figures we notice something spectacular! The program crashes at higher recovery rate! This is due to the fact that there are no more infected people at some point in the program, and therefor no reason to track the infections development, if there is no infection. There are theoretical steady - state for the recovery rate,$b$,- values that are smaller then the transmission rate ,$a$, -values, but due to the randomness of the Monte Carlo Simulations the infection tend to die out by itself, which makes a lot of sense in a population that fluctuate. From here on out we will use $b=1$ in all figures. 
 	 
 \begin{figure}[H]
     \centering
     \begin{subfigure}{0.49\textwidth}
         \centering
-        \includegraphics[width=\linewidth]{../fig/newfig/MC_b1T1.pdf}
+        \includegraphics[width=\linewidth]{../fig/texfig/MC_b1T3.png}
         \caption{$T = 3$ and $b =1$}
     \end{subfigure}%
      ~ 
     \begin{subfigure}{0.49\textwidth}
          \centering
-         \includegraphics[width=\linewidth]{../fig/newfig/MC_b2T3.pdf}
+         \includegraphics[width=\linewidth]{../fig/texfig/MC_b2T3.png}
          \caption{$T = 3$ and $b =2$}
     \end{subfigure}
      ~ 
     \begin{subfigure}{0.49\textwidth}
          \centering
-         \includegraphics[width=\linewidth]{../fig/newfig/MC_b3T3.pdf}
+         \includegraphics[width=\linewidth]{../fig/texfig/MC_b3T3.png}
          \caption{$T = 3$ and $b =3$}
     \end{subfigure}
      ~ 
     \begin{subfigure}{0.49\textwidth}
          \centering
-         \includegraphics[width=\linewidth]{../fig/newfig/MC_b4T3.pdf}
+         \includegraphics[width=\linewidth]{../fig/texfig/MC_b4T3.png}
          \caption{$T = 3$ and $b =4$ }
     \end{subfigure}
          ~ 
     \begin{subfigure}{0.6\textwidth}
          \centering
          \includegraphics[width=\linewidth]{../fig/newfig/MCRK4_b1T3.pdf}
-         \caption{$T = 3$ and $b =1$, both MC and RK4 plottet on top of each other. Removed the total population bar, due to space.}
+         \caption{$T = 3$ and $b =1$, both MC and RK4 plottet on top of each other.}
     \end{subfigure}
     \caption{}
     \label{fig:MCSIRS}
@@ -161,26 +161,26 @@ Vital dynamics are here included as presented in the theory section \ref{sec:VD}
     \centering
     \begin{subfigure}{0.49\textwidth}
         \centering
-        \includegraphics[width=\linewidth]{../fig/newfig/MC_vitaldynamic_d0002_dI0004_e0006.pdf}
+        \includegraphics[width=\linewidth]{../fig/texfig/MC_vitaldynamic_d0002_dI0004_e0006.png}
         \caption{$d = 0.0002, d_I = 0.0004, e = 0.0006$}
     \end{subfigure}
      ~ 
     \begin{subfigure}{0.49\textwidth}
          \centering
-         \includegraphics[width=\linewidth]{../fig/newfig/MC_vitaldynamic_d00002_dI0001_e00006.pdf}
+         \includegraphics[width=\linewidth]{../fig/texfig/MC_vitaldynamic_d00002_dI0001_e00006.png}
          \caption{$d = 0.0002, d_I = 0.0001, e = 0.0006$}
     \end{subfigure}
      ~ 
     \begin{subfigure}{0.49\textwidth}
          \centering
-         \includegraphics[width=\linewidth]{../fig/newfig/MC_vitaldynamic_d00002_dI001_e00006.pdf}
+         \includegraphics[width=\linewidth]{../fig/texfig/MC_vitaldynamic_d00002_dI001_e00006.png}
          \caption{$d = 0.0002, d_I = 0.001, e = 0.0006$}
     \end{subfigure}
      ~ 
     \begin{subfigure}{0.49\textwidth}
          \centering
-         \includegraphics[width=\linewidth]{../fig/newfig/MC_vitaldynamic_d00002_dI003_e00006.pdf}
-         \caption{$d = 0.0002, d_I = 0.003, e = 0.0006$}
+         \includegraphics[width=\linewidth]{../fig/texfig/MC_vitaldynamic_d00002_dI003_e00006.png}
+         \caption{$d = 0.0002, d_I = 0.03, e = 0.0006$}
     \end{subfigure}
     \caption{Main difference between the MC method and the RK4 is that $dt$ was not normalized in the cod, so smaller numbers had a much bigger impact.}
     \label{fig:RK4VD2}
@@ -206,14 +206,14 @@ Here a Seasonal Variation is included \ref{sec:SV}, The value $A$ represents the
      ~ 
     \begin{subfigure}{0.49\textwidth}
          \centering
-         \includegraphics[width=\linewidth]{../fig/newfig/MCSV_A=12T=5.pdf}
-         \caption{MC $A=1.2$ }
+         \includegraphics[width=\linewidth]{../fig/texfig/MCSV_A=12T=5.png}
+         \caption{MC $A=12$ }
     \end{subfigure}
      ~ 
     \begin{subfigure}{0.49\textwidth}
          \centering
-         \includegraphics[width=\linewidth]{../fig/newfig/MCSV_A=20T=5.pdf}
-         \caption{MC $A = 2.0$ }
+         \includegraphics[width=\linewidth]{../fig/texfig/MCSV_A=20T=5.png}
+         \caption{MC $A = 20$ }
     \end{subfigure}
     \caption{This figure shows the impact of seasonal variations on RK4 and MCS, notice how the seasonal variation impact is delayed in the MC scheme.}
     \label{fig:RK4VD3}

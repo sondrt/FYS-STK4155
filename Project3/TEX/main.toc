@@ -9,8 +9,8 @@
 \contentsline {subsubsection}{\numberline {2.2.1}Vital dynamics}{3}{subsubsection.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.2}Seasonal Variation}{4}{subsubsection.2.2.2}
 \contentsline {subsubsection}{\numberline {2.2.3}Vaccination}{4}{subsubsection.2.2.3}
-\contentsline {section}{\numberline {3}Computational Theory \& implementation}{4}{section.3}
-\contentsline {subsection}{\numberline {3.1}4h order Runge-Kutta}{4}{subsection.3.1}
+\contentsline {section}{\numberline {3}Computational Theory \& implementation}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}4h order Runge-Kutta}{5}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Monte Carlo Simulation}{6}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Neural networks}{6}{subsection.3.3}
 \contentsline {section}{\numberline {4}Result \& Discussion}{8}{section.4}
@@ -25,3 +25,4 @@
 \contentsline {subsubsection}{\numberline {4.2.3}Vaccination}{15}{subsubsection.4.2.3}
 \contentsline {section}{\numberline {5}Conclusion}{15}{section.5}
 \contentsline {section}{\numberline {6}References:}{16}{section.6}
+\contentsline {section}{\numberline {7}Appendix}{18}{section.7}
