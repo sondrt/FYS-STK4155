@@ -1,0 +1,93 @@
+\subsection{4h order Runge-Kutta}
+
+
+The 4th order Runge-Kutta(RK4)  is one of the classic methods for numerical integration of ODE models. For a brief introduction of RK4 refers to Wikipedia.
+
+For this problem; consider the following initial value problem of ODE
+
+\begin{align}
+\frac{dy}{dt} = f(t,y) \\ \label{eq2}
+y(t_0) = y_0
+\end{align}
+
+where $y(t)$ is the unknown function which we would like to approximate.
+
+The iterative formula of RK4 method for solving ODE \ref{eq2} is as follows:
+
+\begin{align}
+y_{n+1} &= y_n + \frac{\Delta t}{6}(k_1 + 2k_2 + 2k_3 + k_4) \label{eq:3}
+\end{align}
+\begin{align*}
+k_1 &= f(t_n,y_n)\\
+k_2 &= f(t_n + \frac{\Delta t}{2}, y_n + \frac{k_1\Delta t}{2})\\
+k_3 &= f(t_n + \frac{\Delta t}{2}, y_n + \frac{k_2\Delta t}{2})\\
+k_4 &= f(t_n + \Delta t, y_n + k_3 \Delta t)\\
+t_n +1 &= t_n + \Delta t\\
+n &= 0,1,2,3,...
+\end{align*}
+
+
+
+The SIRS model is defined as follows:
+
+\begin{align*}
+\frac{dS}{dt} &= cR - \frac{aSI}{N}\\
+\frac{dI}{dt} &= \frac{aSI}{N} - bI\\
+\frac{dR}{dt} &= bI - cR
+\end{align*}
+
+with $a, b, c, S, I, R$ and $N$ as previously defined.\ref{table:1}
+
+According to the general iterative formula \ref{eq:3}, the iterative formulas for $S(t), I(t), R(t)$ of SIRS model can be written out: 
+
+\begin{align*}
+S_{n+1} &= S_n + \frac{\Delta t}{6}(k_1^S + 2k_2^S + 2k_3^S + k_4^S)\\
+k_1 &= f(t_n, S_n, I_n, R_n) = cR - \frac{aSI}{N}\\
+k_2 &= f(t_n + \frac{\Delta t}{2}, S_n + \frac{k_1^S \Delta t}{2}, I_n + \frac{k_1^S\Delta t}{2}, R_n + \frac{k_1^R\Delta t}{2}) =  - \frac{a}{N}(S_n + \frac{k_1^S \Delta t}{2})( I_n+ \frac{k_1^I\Delta t}{2}) + c(R_n + \frac{k_1^R\Delta t}{2}) \\
+k_3 &= f(t_n + \frac{\Delta t}{2}, S_n + \frac{k_2^S \Delta t}{2}, I_n + \frac{k_2^S\Delta t}{2}, R_n + \frac{k_2^R\Delta t}{2}) = - \frac{a}{N}(S_n + \frac{k_2^S \Delta t}{2})( I_n+ \frac{k_2^I\Delta t}{2}) + c(R_n + \frac{k_2^R\Delta t}{2})\\
+k_4 &= f(t_n +\Delta t, S_n +k_3^S \Delta t, In + k_3^I \Delta t, R_n + k_3^R\Delta t) = - \frac{a}{N}(S_n + k_3^S\Delta t)(I_n+k_3^I\Delta t)+c(R_n + k_3^R\Delta t)\\
+\end{align*}
+
+\begin{align*}
+I_{n+1} &= I_n + \frac{\Delta t}{6}(k_1^I + 2k_2^I + 2k_3^I + k_4^I) \\
+k_1^I &= \frac{aS_nI_n}{N} - bI_n \\
+k_2^I &= \frac{a}{N} (S_n + \frac{k_1^S \Delta t}{2})(I_n + \frac{k_1^I \Delta t}{2}) - b (I_n + \frac{k_1^I \Delta t}{2})\\
+k_3^I &= \frac{a}{N}(S_n + \frac{k_2^S \Delta t}{2})(I_n + \frac{k_2^I \Delta t}{2}) - b(I_n + \frac{k_2^I \Delta t}{2}) \\
+k_4^I &= \frac{a}{N}(S_n + k_3^S \Delta t)(I_n + k_3^I \Delta t) - b(I_n + k_3^I \Delta t) 
+\end{align*}
+
+\begin{align*}
+R_{n+1} &= R_n = \frac{\Delta t}{6}(k_1^R + 2k_2^R +2k_3^R + k_4^R)\\
+k_1^R &= bI_n - cR_n \\
+k_2^R &= b(I_n + \frac{k_1^I \Delta t}{2}) - c(R_n + \frac{k_1^R \Delta t}{2})\\
+k_3^R &= b(I_n + \frac{k_2^I \Delta t}{2}) - c(R_n + \frac{k_2^R \Delta t}{2})\\
+k_4^R &= b(I_n + k_3^I \Delta t) - c(R_n + k_3^R \Delta t)
+\end{align*}
+
+Pew, now note that since the population $ N = S(t) + I(t) + R(i) $ is constant, they will have $0 = \frac{dS}{dt} + \frac{dI}{dt} + \frac{dR}{dt}$. Meaning that only two of the three ODEs are independent and are thus sufficient to solve the ODEs. In our code, we ignore this fact, so that we can utilize the full power of our cpu. 
+
+\subsection{Monte Carlo Simulation}
+
+This project consists of different cases with a different degree of complexity. For the basis case it is enough to use the Monte Carlo method. This method utilizes the fact that a large number of experiments converges towards the expectation value. When the probability of doing something is added, the system utilizes the Metropolis Algorithm. The system has to do a random choice of acceptance or denial of the case. This random choice is done with the Random Number Generator from NumPy\cite{NumPy}. A random number i created between $(0 - 1)$. If the number is less than the probability term, accept the new state. If the number is greater than the probability for change then discard the change. The procedure is outlined in four steps:
+
+\begin{itemize}
+	\item Chose a transition state randomly.
+	\item Find the probability for the transition.
+	\item A RNG is used to chose a number between $(0-1)$. Now if the probability term is less then the RNG number, reject the transition. If not, accept the tranistion.
+	\item Update the system with the transferred states.
+\end{itemize}
+
+
+
+\subsection{Neural networks}
+
+First of all we wanted to make sure that we could  train the neural network(NN) to reproduce the RK4 solution. This is certainly a prerequisite toe the idea working. The NN will here output three values, one for each concentration. We also chose to use the Swish function due to this article \ref{ref:3}. We later tested for OTHER.
+	
+	We then trained our network to reproduce the solution, one layer network with 8 nodes to output all three concentrations pretty accurately. This confirmed that the solution could be represented by a neural network. (Se the section for results) REF.
+	
+	The next major issue is how do we get the relevant derivatives. The solution method developed here relies on using optimization to find a set of weights that produces a NN whose derivatives are consistent with the ODE equation.
+	The NN outputs three concentrations, and we need the time derivatives of them. In Autograd we found three options; grad, elementwise\_grad and Jacobian. We cannot use grad because our function is not scalar. We cannot use elementwise\_grad because that would give us the wrong shape. This left us with one option. This was a little weird because it gave an output that was 4-dimensional, as expected from the documentation, the first and third output where related to our time steps, then we used some fancy sorting to see if the data was comparable to the derivatives defined by the ODEs. This was inefficient, due to it requiring a lot of calculations to create the jacobian.
+	
+	Finally we solved the system with our NN, firstly defining a time grid to solve it on, defining our objective function, taking care of initial conditions, running the optimization and getting the solution from the NN.
+
+

@@ -1,0 +1,99 @@
+\subsection{The SIRS}
+The SIRS model is the one of the simplest compartmental models, and is very similar to the SIR model, with one exception, this exception stopes the SIRS model from being solvable analythically.
+
+The \textbf{SIRS} model considers an isolated population $N$, that consists of three compartments:
+\begin{itemize}
+\item \textbf{S}: The number of people without immunity to the disease. 
+\item \textbf{I}: The number of people who are currently infected
+\item \text{R}: The number of past infected whom have developed an immunity to the disease.
+\end{itemize}\label{table:1}
+
+These variables (\textbf{S, I, R}) represent the number of people in each compartment, and since the size of these are dependent on time, we make the precise number a function of time.($ \textbf{S}(t), \textbf{I}(t), \textbf{R}(y)$). For a specific disease in a specific population, these functions can be worked out to predict possible outbreaks and perhaps bring them under control. 
+
+The model is dynamic in that the number in each compartment may change over time. This is dynamic aspect is most obvious in an endemic disease. The main difference between the SIRS model and the SIR model is the fact that in the SIR model a member of the population can never join the susceptible group, ($S(t)$), again after leaving, such as the disease measles. This type of disease can not break out again until the number of susceptible people has built back up. While in the SIRS model, you can "lose" your immunity to the disease. A person can move from one group to another as indicated in the figure \ref{fig:SIRS} below.
+
+	The rate of transmission $a$, the rate of recovery $b$ and the rate of immunity lose $c$, helps describing the flow of people moving between the groups. The group is assumed to be mixed homogeneously and the total population remains constant.
+	
+\begin{align}
+N = S(t) + I(t) + R(t) 
+\end{align}
+	
+% SIRS drawing
+\begin{figure}[h]
+\center
+\begin{tikzpicture}
+\draw (0,0) -- (0,2) --(2,2) -- (2,0) --(0,0);
+\node at (1,1) {S};
+\draw [thick,->](3,1) -- (4,1);
+\node at (3.5,1.5) {a};
+\draw (5,0) -- (5,2) -- (7,2) -- (7,0) -- (5,0);
+\node at (6,1) {I};
+\draw [thick,->](8,1) -- (9,1);
+\node at (8.5,1.5) {b};
+\draw (10,0) -- (10,2) -- (12,2) -- (12,0) --(10,0);
+\node at (11,1) {R};
+\draw [thick, <-] (1,2) to [out = 90, in = 90] ( 11, 2 );
+\node at (6,5.5) {c};
+\end{tikzpicture}
+\caption{A flow diagram in which the boxes represent the different compartments and the arrows the transition between the compartments for a SIRS model.}
+\label{fig:SIRS}
+\end{figure}
+
+If we assume that the time scale is much smaller than the average person's lifetime, than the effect of the birth and death rate of the population can be ignored. For these assumption we are given a set of coupled differential equations that we use to construct our model. 
+
+\begin{align}
+\frac{dS}{dt} = cR - \frac{aSI}{N}\\
+\frac{dI}{dt} = \frac{aSI}{N} - bI\\
+\frac{dR}{dt} = bI - cR
+\end{align}
+
+
+Though this set does not have a analytic solution, the equilibrium solutions are simple to obtain. The constrain \ref{eq1} reduces the three dimensional system into a two dimensional one.
+
+\begin{align}
+\frac{dS}{dT} &= c(N-S-I) - \frac{aSI}{N} \\
+\frac{dI}{dT} &= \frac{aSI}{N} - bI\\
+\end{align}
+
+\subsubsection{The steady state}\label{sec:stady_state}
+The steady state is found by setting both of these equations equal to zero. The fraction of people in each group will then be:
+
+\begin{align}
+s^* &= \frac{b}{a} \\
+i^* &= \frac{1- \frac{b}{a}}{ 1 + \frac{b}{c}} \\
+r^* &= \frac{b}{c} \frac{1- \frac{b}{a}}{ 1 + \frac{b}{c}}
+\end{align}
+
+Each fraction must be between $(0-1)$ and the three factions must sum up to $1$. This also shows that $b < a$ for the disease to establish itself in the population.
+
+\subsection{Improvements to SIRS}
+The same principles as for the simple model are utilized to extend the model to include more details about the population and the disease. 
+
+\subsubsection{Vital dynamics}\label{sec:VD}
+Vital dynamics are added so that the model can describe the spread of the diseases which occur over longer stretches of time. If $e$ is introduced as the brith rate, $d$ and $d_I$ as death rate, and death rate for the infected people due to the disease, then the differential equations, assuming all babies born are susceptible, are given by:
+
+\begin{align}
+\frac{dS}{dT} &= cR - \frac{aSI}{N} - dS + eN\\
+\frac{dI}{dT} &= \frac{aSI}{N} - bI - dI - d_I I\\
+\frac{dR}{dT} &= bI - cR - dR
+\end{align} 
+
+\subsubsection{Seasonal Variation}\label{sec:SV}
+Seasonal variations can also be added to better represent diseases such as influenza, where the rate of transmission depends largely on the time of the year. During cold months individuals are more likely to spend time in closer proximity to one another, resulting in a higher rate of transmission. We change the transmission rate ($a$), so that it oscillates.
+\begin{align}
+a(t) = A\cos (\omega t) + a0
+\end{align} 
+
+where $a0$ is the average transmission rate, $A$ is the maximum deviation form $a0$, and $\omega$ is the frequency of oscillation.
+
+\subsubsection{Vaccination}
+Diseases with available vaccinations allow people to move directly from $S$ to $R$, breaking the cyclic structure.\autocite{zaman2008stability} Here it is assumed that a susceptible individual's choice to become vaccinated does not depend on how many other susceptible are vaccinated or the anti vaccination movement. We can assume that the rate of vaccination, $f$, depends on time, since this rate may oscillate during the course of a year and/or increase as awareness and medical research increase. The differential equations become:
+
+\begin{align}
+\frac{dS}{dT} &= cR - \frac{aSI}{N} -f\\
+\frac{dI}{dT} &= \frac{aSI}{N} - bI \\
+\frac{dR}{dT} &= bI - cR + f
+\end{align}
+
+
+
