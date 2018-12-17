@@ -52,18 +52,18 @@ The simplest form of SIRS models differential equations solved with 4th order Ru
 	     \begin{subfigure}{0.5\textwidth}
 	         \centering
 	         \includegraphics[width=\linewidth]{result/Resultater_supervised/tanh_1000_100_001.pdf}
-	         \caption{0.001 Step size for tanh activation function}
+	         \caption{0.001 Step size limit for tanh activation function}
 	     \end{subfigure}%
 	     ~ 
 	     \begin{subfigure}{0.5\textwidth}
 	         \centering
 	         \includegraphics[width=\linewidth]{result/Resultater_supervised/tanh_1000_100_01.pdf}
-	         \caption{0.01 Step size for tanh activation function}
+	         \caption{0.01 Step size limit for tanh activation function}
 	     \end{subfigure}
-	     \caption{The step size is an important parameter for obtaining results with the correct shape}
+	     \caption{Neural network results compared to the RK4 solution for two different step sizes}
 	     \label{fig:step size}
 	 \end{figure}
- 	When comparing the neural network solutions for a varying step size we see that the shape of the fit is highly dependent on this parameter. In figure \ref{fig:step size} the number of nodes and epochs and was 1000 and 100 respectively. The activation function used was in this case tanh. Even though a high number of nodes and epochs allows for a better over all result, this can only partially cover up for a poor step size as the total amount of calculations increases and the program can end up being to costly from a computational points of view. The two plots above indicate the importance of having at least a decent step size so that reasonable efficiency can be achieved.
+ 	When comparing the neural network solutions for a varying step size limit we see that the shape of the fit is highly dependent on this parameter. In figure \ref{fig:step size} the number of nodes and epochs was 1000 and 100 respectively. We used the $\tanh$ activation function in this case. Even though a high number of nodes and epochs allows for a better result over all, this can only partially cover up for a poor step size as the total amount of calculations increases and the program can end up being to costly from a computational point of view. The two plots above indicate the importance of having at least a decent step size so that reasonable calculational efficiency can be achieved.
 
 	 \begin{figure}[H]
 	\centering
@@ -78,9 +78,12 @@ The simplest form of SIRS models differential equations solved with 4th order Ru
 		\includegraphics[width=\linewidth]{result/Resultater_supervised/arctan_1000_1000_0001.pdf}
 		\caption{1000 epochs for the arctan activation function}
 	\end{subfigure}
-	\caption{The number of epochs is an important parameter for obtaining results with correct magnitude and initial values}
-	%\label{fig:tc-E-M}
+	\caption{Neural network results compared to the RK4 solution for two different number of epochs}
+	\label{fig:epochs}
 	\end{figure}
+
+	In figure \ref{fig:epochs} we can see how the number of epochs in the neural network changes the accuracy of the results. When the number of epochs is too low we generally get much worse initial values for all of the populations S, I and R. In this case the arctan activation function was used with 1000 nodes and 0.0001 as step size. The difference is one order of magnitude in the number of epochs (from 100 to 1000), and the results improve significantly. Note that the shape in this case is still quite poor as the step size is quite low. 
+
 
 	\begin{figure}[H]
 	\centering
@@ -101,8 +104,17 @@ The simplest form of SIRS models differential equations solved with 4th order Ru
 		\includegraphics[width=\linewidth]{result/Resultater_supervised/tanh_100_1000_0001.pdf}
 		\caption{Using tanh as the activation function}
 	\end{subfigure}
-	\caption{At lower values for number of nodes, epochs and step sizes the differences in the activation functions are more prominent. The swish function, although the most accurate, adopts a more linear nature in this domain.}
+	\caption{Neural network solution for three different activation functions}
 	\end{figure}
+	At lower values for number of nodes, epochs and step sizes the differences in the activation functions are more prominent. The neural network was run with 100 nodes, 1000 epochs and 0.0001 step size here. The swish function, although the most accurate when allowed for more computationally intensive jobs, does not converge correctly here and adopts a more linear nature in this domain. It is therefore only valid when using more epochs and nodes and with a bigger step size.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.5\linewidth]{result/Resultater_supervised/swish_1000_10000_01}
+		\caption{Neural network solution using the swish activation function, 1000 nodes, 10000 epochs and 0.1 step size limit}
+		\label{fig:swish}
+	\end{figure}
+	The best results was achieved with the swish function with a high number of nodes, epochs and a big step size (1000, 10000 and 0.1 respectively). In this case the results are very consistent with the RK4 method as can be seen in figure \ref{fig:swish} where the data coincide almost completely. 
 	
 	For many, many more figures and a full overview of the R2-score and MSE for each run, see; \href{https://github.com/sondrt/FYS-STK4155/tree/master/Project3/TEX/result}{github}.
  

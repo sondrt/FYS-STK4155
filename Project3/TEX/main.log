@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.8.25)  17 DEC 2018 18:27
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.8.25)  17 DEC 2018 19:55
  \write18 enabled.
  file:line:error style messages enabled.
 **main.tex
@@ -37,8 +37,21 @@ File: babel.def 2014/09/25 3.9l Babel common definitions
 luatex-hyphen: using data file: /usr/local/texlive/2015/texmf-var/tex/generic/co
 nfig/language.dat.lua))
 Package babel Info: Making " an active character on input line 113.
-luatex-hyphen: loading patterns and exceptions for: bokmal (\language59)))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+luatex-hyphen: loading patterns and exceptions for: bokmal (\language59))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+
+Package babel Warning: Last declared language option is `norsk,
+(babel)                but the last processed one was `english'.
+(babel)                The main language cannot be set as both a global
+(babel)                and a package option. Use `main=norsk' as
+(babel)                option. Reported on input line 314.
+
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.def
@@ -1363,18 +1376,13 @@ File: biblatex.cfg
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
-Package csquotes Info: Redefining alias 'default' -> 'norsk'.
-Package biblatex Info: Trying to load language 'norsk'...
-Package biblatex Info: ... file 'norsk.lbx' found.
+Package csquotes Info: Redefining alias 'default' -> 'english'.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/lbx/norsk.lbx
-File: norsk.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
-Package biblatex Info: Trying to load language 'norwegian'...
-Package biblatex Info: ... file 'norwegian.lbx' found.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/lbx/norwegian.lbx
-File: norwegian.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
-))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
+)
 (./main.aux)
 \openout1 = main.aux
 
@@ -1621,52 +1629,51 @@ Overfull \hbox (13.80272pt too wide) in paragraph at lines 49--49
  []
 
 
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 57.
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 49.
 
 [5]
 
 LaTeX Warning: Citation 'NumPy' on page 6 undefined on input line 71.
 
 
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 90.
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 77.
 
 [6]) (./result/result.tex
 
 LaTeX Warning: Citation 'Nobody06' on page 7 undefined on input line 4.
 
-<../fig/texfig/RK4_b1T1.png, id=220, 455.301pt x 339.669pt>
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 18.
+
+[7] <../fig/texfig/RK4_b1T1.png, id=226, 455.301pt x 339.669pt>
 File: ../fig/texfig/RK4_b1T1.png Graphic file (type png)
 
 <use ../fig/texfig/RK4_b1T1.png>
 Package pdftex.def Info: ../fig/texfig/RK4_b1T1.png used on input line 23.
 (pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
 
-<../fig/texfig/RK4_b2T1.png, id=221, 455.301pt x 339.669pt>
+<../fig/texfig/RK4_b2T1.png, id=227, 455.301pt x 339.669pt>
 File: ../fig/texfig/RK4_b2T1.png Graphic file (type png)
 
 <use ../fig/texfig/RK4_b2T1.png>
 Package pdftex.def Info: ../fig/texfig/RK4_b2T1.png used on input line 29.
 (pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
 
-<../fig/texfig/RK4_b3T1.png, id=222, 455.301pt x 339.669pt>
+<../fig/texfig/RK4_b3T1.png, id=228, 455.301pt x 339.669pt>
 File: ../fig/texfig/RK4_b3T1.png Graphic file (type png)
 
 <use ../fig/texfig/RK4_b3T1.png>
 Package pdftex.def Info: ../fig/texfig/RK4_b3T1.png used on input line 35.
 (pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
 
-<../fig/texfig/RK4_b4T1.png, id=223, 455.301pt x 339.669pt>
+<../fig/texfig/RK4_b4T1.png, id=229, 455.301pt x 339.669pt>
 File: ../fig/texfig/RK4_b4T1.png Graphic file (type png)
 
 <use ../fig/texfig/RK4_b4T1.png>
 Package pdftex.def Info: ../fig/texfig/RK4_b4T1.png used on input line 41.
 (pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
 
-
-LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 47.
-
-[7]
-<result/Resultater_supervised/tanh_1000_100_001.pdf, id=231, 471.46577pt x 350.
+<result/Resultater_supervised/tanh_1000_100_001.pdf, id=230, 471.46577pt x 350.
 5509pt>
 File: result/Resultater_supervised/tanh_1000_100_001.pdf Graphic file (type pdf)
 
@@ -1675,7 +1682,7 @@ Package pdftex.def Info: result/Resultater_supervised/tanh_1000_100_001.pdf used
  on input line 54.
 (pdftex.def)             Requested size: 226.48395pt x 168.4016pt.
 
-<result/Resultater_supervised/tanh_1000_100_01.pdf, id=232, 471.46577pt x 350.5
+<result/Resultater_supervised/tanh_1000_100_01.pdf, id=231, 471.46577pt x 350.5
 509pt>
 File: result/Resultater_supervised/tanh_1000_100_01.pdf Graphic file (type pdf)
  <use result/Resultater_supervised/tanh_1000_100_01.pdf>
@@ -1692,7 +1699,7 @@ LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 66.
 
 [8<../fig/texfig/RK4_b1T1.png><../fig/texfig/RK4_b2T1.png><../fig/texfig/RK4_b3T
 1.png><../fig/texfig/RK4_b4T1.png>]
-<result/Resultater_supervised/arctan_1000_100_0001.pdf, id=244, 471.46577pt x 3
+<result/Resultater_supervised/arctan_1000_100_0001.pdf, id=243, 471.46577pt x 3
 50.5509pt>
 File: result/Resultater_supervised/arctan_1000_100_0001.pdf Graphic file (type p
 df)
@@ -1701,7 +1708,7 @@ Package pdftex.def Info: result/Resultater_supervised/arctan_1000_100_0001.pdf u
 sed on input line 72.
 (pdftex.def)             Requested size: 226.48395pt x 168.4016pt.
 
-<result/Resultater_supervised/arctan_1000_1000_0001.pdf, id=245, 471.46577pt x 
+<result/Resultater_supervised/arctan_1000_1000_0001.pdf, id=244, 471.46577pt x 
 350.5509pt>
 File: result/Resultater_supervised/arctan_1000_1000_0001.pdf Graphic file (type 
 pdf)
@@ -1721,7 +1728,7 @@ File: result/Resultater_supervised/arctan_100_1000_0001.pdf Graphic file (type p
 df)
  <use result/Resultater_supervised/arctan_100_1000_0001.pdf>
 Package pdftex.def Info: result/Resultater_supervised/arctan_100_1000_0001.pdf u
-sed on input line 89.
+sed on input line 92.
 (pdftex.def)             Requested size: 226.48395pt x 168.4016pt.
 
 <result/Resultater_supervised/swish_100_1000_0001.pdf, id=247, 471.46577pt x 35
@@ -1730,7 +1737,7 @@ File: result/Resultater_supervised/swish_100_1000_0001.pdf Graphic file (type pd
 f)
  <use result/Resultater_supervised/swish_100_1000_0001.pdf>
 Package pdftex.def Info: result/Resultater_supervised/swish_100_1000_0001.pdf us
-ed on input line 95.
+ed on input line 98.
 (pdftex.def)             Requested size: 226.48395pt x 168.4016pt.
 
 <result/Resultater_supervised/tanh_100_1000_0001.pdf, id=248, 471.46577pt x 350
@@ -1739,287 +1746,295 @@ File: result/Resultater_supervised/tanh_100_1000_0001.pdf Graphic file (type pdf
 )
  <use result/Resultater_supervised/tanh_100_1000_0001.pdf>
 Package pdftex.def Info: result/Resultater_supervised/tanh_100_1000_0001.pdf use
-d on input line 101.
+d on input line 104.
 (pdftex.def)             Requested size: 226.48395pt x 168.4016pt.
 
-Overfull \hbox (4.23996pt too wide) in paragraph at lines 87--104
+Overfull \hbox (4.23996pt too wide) in paragraph at lines 90--107
  [][]$[]$  $[]$ 
  []
 
 
-LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 106.
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 109.
 
 [9<./result/Resultater_supervised/tanh_1000_100_001.pdf><./result/Resultater_sup
 ervised/tanh_1000_100_01.pdf><./result/Resultater_supervised/arctan_1000_100_000
 1.pdf><./result/Resultater_supervised/arctan_1000_1000_0001.pdf>]
-<../fig/texfig/MC_T1.png, id=423, 455.301pt x 339.669pt>
-File: ../fig/texfig/MC_T1.png Graphic file (type png)
-
-<use ../fig/texfig/MC_T1.png>
-Package pdftex.def Info: ../fig/texfig/MC_T1.png used on input line 121.
-(pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
-
-<../fig/texfig/MC_T10.png, id=424, 455.301pt x 339.669pt>
-File: ../fig/texfig/MC_T10.png Graphic file (type png)
-
-<use ../fig/texfig/MC_T10.png>
-Package pdftex.def Info: ../fig/texfig/MC_T10.png used on input line 127.
-(pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
-
-<../fig/texfig/MC_T100.png, id=425, 455.301pt x 339.669pt>
-File: ../fig/texfig/MC_T100.png Graphic file (type png)
-
-<use ../fig/texfig/MC_T100.png>
-Package pdftex.def Info: ../fig/texfig/MC_T100.png used on input line 133.
-(pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
-
-<../fig/texfig/MC_T1000.png, id=426, 455.301pt x 339.669pt>
-File: ../fig/texfig/MC_T1000.png Graphic file (type png)
-
-<use ../fig/texfig/MC_T1000.png>
-Package pdftex.def Info: ../fig/texfig/MC_T1000.png used on input line 139.
-(pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
+<result/Resultater_supervised/swish_1000_10000_01.pdf, id=421, 471.46577pt x 35
+0.5509pt>
+File: result/Resultater_supervised/swish_1000_10000_01.pdf Graphic file (type pd
+f)
+ <use result/Resultater_supervised/swish_1000_10000_01.pdf>
+Package pdftex.def Info: result/Resultater_supervised/swish_1000_10000_01.pdf us
+ed on input line 113.
+(pdftex.def)             Requested size: 226.48395pt x 168.4016pt.
 
 
-LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 145.
+LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 117.
 
 [10<./result/Resultater_supervised/arctan_100_1000_0001.pdf><./result/Resultater
 _supervised/swish_100_1000_0001.pdf><./result/Resultater_supervised/tanh_100_100
-0_0001.pdf>] <../fig/texfig/MC_b1T3.png, id=558, 455.301pt x 339.669pt>
+0_0001.pdf>] <../fig/texfig/MC_T1.png, id=554, 455.301pt x 339.669pt>
+File: ../fig/texfig/MC_T1.png Graphic file (type png)
+
+<use ../fig/texfig/MC_T1.png>
+Package pdftex.def Info: ../fig/texfig/MC_T1.png used on input line 133.
+(pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
+
+<../fig/texfig/MC_T10.png, id=555, 455.301pt x 339.669pt>
+File: ../fig/texfig/MC_T10.png Graphic file (type png)
+
+<use ../fig/texfig/MC_T10.png>
+Package pdftex.def Info: ../fig/texfig/MC_T10.png used on input line 139.
+(pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
+
+<../fig/texfig/MC_T100.png, id=556, 455.301pt x 339.669pt>
+File: ../fig/texfig/MC_T100.png Graphic file (type png)
+
+<use ../fig/texfig/MC_T100.png>
+Package pdftex.def Info: ../fig/texfig/MC_T100.png used on input line 145.
+(pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
+
+<../fig/texfig/MC_T1000.png, id=557, 455.301pt x 339.669pt>
+File: ../fig/texfig/MC_T1000.png Graphic file (type png)
+
+<use ../fig/texfig/MC_T1000.png>
+Package pdftex.def Info: ../fig/texfig/MC_T1000.png used on input line 151.
+(pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 157.
+
+[11<./result/Resultater_supervised/swish_1000_10000_01.pdf>]
+<../fig/texfig/MC_b1T3.png, id=606, 455.301pt x 339.669pt>
 File: ../fig/texfig/MC_b1T3.png Graphic file (type png)
 
 <use ../fig/texfig/MC_b1T3.png>
-Package pdftex.def Info: ../fig/texfig/MC_b1T3.png used on input line 153.
+Package pdftex.def Info: ../fig/texfig/MC_b1T3.png used on input line 165.
 (pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
 
-<../fig/texfig/MC_b2T3.png, id=559, 455.301pt x 339.669pt>
+<../fig/texfig/MC_b2T3.png, id=607, 455.301pt x 339.669pt>
 File: ../fig/texfig/MC_b2T3.png Graphic file (type png)
 
 <use ../fig/texfig/MC_b2T3.png>
-Package pdftex.def Info: ../fig/texfig/MC_b2T3.png used on input line 159.
+Package pdftex.def Info: ../fig/texfig/MC_b2T3.png used on input line 171.
 (pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
 
-<../fig/texfig/MC_b3T3.png, id=560, 455.301pt x 339.669pt>
+<../fig/texfig/MC_b3T3.png, id=608, 455.301pt x 339.669pt>
 File: ../fig/texfig/MC_b3T3.png Graphic file (type png)
 
 <use ../fig/texfig/MC_b3T3.png>
-Package pdftex.def Info: ../fig/texfig/MC_b3T3.png used on input line 165.
+Package pdftex.def Info: ../fig/texfig/MC_b3T3.png used on input line 177.
 (pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
 
-<../fig/texfig/MC_b4T3.png, id=561, 455.301pt x 339.669pt>
+<../fig/texfig/MC_b4T3.png, id=609, 455.301pt x 339.669pt>
 File: ../fig/texfig/MC_b4T3.png Graphic file (type png)
 
 <use ../fig/texfig/MC_b4T3.png>
-Package pdftex.def Info: ../fig/texfig/MC_b4T3.png used on input line 171.
+Package pdftex.def Info: ../fig/texfig/MC_b4T3.png used on input line 183.
 (pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
 
-<../fig/newfig/MCRK4_b1T3.pdf, id=562, 462.52798pt x 346.89601pt>
+<../fig/newfig/MCRK4_b1T3.pdf, id=610, 462.52798pt x 346.89601pt>
 File: ../fig/newfig/MCRK4_b1T3.pdf Graphic file (type pdf)
 
 <use ../fig/newfig/MCRK4_b1T3.pdf>
-Package pdftex.def Info: ../fig/newfig/MCRK4_b1T3.pdf used on input line 177.
+Package pdftex.def Info: ../fig/newfig/MCRK4_b1T3.pdf used on input line 189.
 (pdftex.def)             Requested size: 271.7835pt x 203.84642pt.
 
 
-LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 183.
+LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 195.
 
-[11<../fig/texfig/MC_T1.png><../fig/texfig/MC_T10.png><../fig/texfig/MC_T100.png
+[12<../fig/texfig/MC_T1.png><../fig/texfig/MC_T10.png><../fig/texfig/MC_T100.png
 ><../fig/texfig/MC_T1000.png>]
 
-LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 187.
+LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 199.
 
-[12<../fig/texfig/MC_b1T3.png><../fig/texfig/MC_b2T3.png><../fig/texfig/MC_b3T3.
+[13<../fig/texfig/MC_b1T3.png><../fig/texfig/MC_b2T3.png><../fig/texfig/MC_b3T3.
 png><../fig/texfig/MC_b4T3.png><../fig/newfig/MCRK4_b1T3.pdf>]
-<../fig/newfig/RK4_vitalDynamics_d001_dI01_e05.pdf, id=626, 462.52798pt x 346.8
+<../fig/newfig/RK4_vitalDynamics_d001_dI01_e05.pdf, id=674, 462.52798pt x 346.8
 9601pt>
 File: ../fig/newfig/RK4_vitalDynamics_d001_dI01_e05.pdf Graphic file (type pdf)
  <use ../fig/newfig/RK4_vitalDynamics_d001_dI01_e05.pdf>
 Package pdftex.def Info: ../fig/newfig/RK4_vitalDynamics_d001_dI01_e05.pdf used 
-on input line 194.
+on input line 206.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
-<../fig/newfig/RK4_vitalDynamics_d001_dI01_e005.pdf, id=627, 462.52798pt x 346.
+<../fig/newfig/RK4_vitalDynamics_d001_dI01_e005.pdf, id=675, 462.52798pt x 346.
 89601pt>
 File: ../fig/newfig/RK4_vitalDynamics_d001_dI01_e005.pdf Graphic file (type pdf)
 
  <use ../fig/newfig/RK4_vitalDynamics_d001_dI01_e005.pdf>
 Package pdftex.def Info: ../fig/newfig/RK4_vitalDynamics_d001_dI01_e005.pdf used
- on input line 200.
+ on input line 212.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
-<../fig/newfig/RK4_vitalDynamics_d01_dI30_e05.pdf, id=628, 462.52798pt x 346.89
+<../fig/newfig/RK4_vitalDynamics_d01_dI30_e05.pdf, id=676, 462.52798pt x 346.89
 601pt>
 File: ../fig/newfig/RK4_vitalDynamics_d01_dI30_e05.pdf Graphic file (type pdf)
  <use ../fig/newfig/RK4_vitalDynamics_d01_dI30_e05.pdf>
 Package pdftex.def Info: ../fig/newfig/RK4_vitalDynamics_d01_dI30_e05.pdf used o
-n input line 206.
+n input line 218.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
-<../fig/newfig/RK4_vitalDynamics_d002_dI10_e006.pdf, id=629, 462.52798pt x 346.
+<../fig/newfig/RK4_vitalDynamics_d002_dI10_e006.pdf, id=677, 462.52798pt x 346.
 89601pt>
 File: ../fig/newfig/RK4_vitalDynamics_d002_dI10_e006.pdf Graphic file (type pdf)
 
  <use ../fig/newfig/RK4_vitalDynamics_d002_dI10_e006.pdf>
 Package pdftex.def Info: ../fig/newfig/RK4_vitalDynamics_d002_dI10_e006.pdf used
- on input line 212.
+ on input line 224.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
-Underfull \hbox (badness 6758) in paragraph at lines 213--213
+Underfull \hbox (badness 6204) in paragraph at lines 225--225
 [][]\T1/pnc/m/n/9 (d) |low birth-rate ($\OML/cmm/m/it/9 e \OT1/cmr/m/n/9 = 0\OM
-L/cmm/m/it/9 :\OT1/cmr/m/n/9 006$\T1/pnc/m/n/9 ), low ge-ne-ral
+L/cmm/m/it/9 :\OT1/cmr/m/n/9 006$\T1/pnc/m/n/9 ), low gen-eral
  []
 
 
-<../fig/texfig/MC_vitaldynamic_d0002_dI0004_e0006.png, id=630, 455.301pt x 339.
+<../fig/texfig/MC_vitaldynamic_d0002_dI0004_e0006.png, id=678, 455.301pt x 339.
 669pt>
 File: ../fig/texfig/MC_vitaldynamic_d0002_dI0004_e0006.png Graphic file (type pn
 g)
  <use ../fig/texfig/MC_vitaldynamic_d0002_dI0004_e0006.png>
 Package pdftex.def Info: ../fig/texfig/MC_vitaldynamic_d0002_dI0004_e0006.png us
-ed on input line 224.
+ed on input line 236.
 (pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
 
-<../fig/texfig/MC_vitaldynamic_d00002_dI0001_e00006.png, id=631, 455.301pt x 33
+<../fig/texfig/MC_vitaldynamic_d00002_dI0001_e00006.png, id=679, 455.301pt x 33
 9.669pt>
 File: ../fig/texfig/MC_vitaldynamic_d00002_dI0001_e00006.png Graphic file (type 
 png)
  <use ../fig/texfig/MC_vitaldynamic_d00002_dI0001_e00006.png>
 Package pdftex.def Info: ../fig/texfig/MC_vitaldynamic_d00002_dI0001_e00006.png 
-used on input line 230.
+used on input line 242.
 (pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
 
-<../fig/texfig/MC_vitaldynamic_d00002_dI001_e00006.png, id=632, 455.301pt x 339
+<../fig/texfig/MC_vitaldynamic_d00002_dI001_e00006.png, id=680, 455.301pt x 339
 .669pt>
 File: ../fig/texfig/MC_vitaldynamic_d00002_dI001_e00006.png Graphic file (type p
 ng)
  <use ../fig/texfig/MC_vitaldynamic_d00002_dI001_e00006.png>
 Package pdftex.def Info: ../fig/texfig/MC_vitaldynamic_d00002_dI001_e00006.png u
-sed on input line 236.
+sed on input line 248.
 (pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
 
-<../fig/texfig/MC_vitaldynamic_d00002_dI003_e00006.png, id=633, 455.301pt x 339
+<../fig/texfig/MC_vitaldynamic_d00002_dI003_e00006.png, id=681, 455.301pt x 339
 .669pt>
 File: ../fig/texfig/MC_vitaldynamic_d00002_dI003_e00006.png Graphic file (type p
 ng)
  <use ../fig/texfig/MC_vitaldynamic_d00002_dI003_e00006.png>
 Package pdftex.def Info: ../fig/texfig/MC_vitaldynamic_d00002_dI003_e00006.png u
-sed on input line 242.
+sed on input line 254.
 (pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
 
 
-LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 248.
+LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 260.
 
-[13<../fig/newfig/RK4_vitalDynamics_d001_dI01_e05.pdf><../fig/newfig/RK4_vitalDy
+[14<../fig/newfig/RK4_vitalDynamics_d001_dI01_e05.pdf><../fig/newfig/RK4_vitalDy
 namics_d001_dI01_e005.pdf><../fig/newfig/RK4_vitalDynamics_d01_dI30_e05.pdf><../
 fig/newfig/RK4_vitalDynamics_d002_dI10_e006.pdf>]
 
-LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 251.
+LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 263.
 
-[14<../fig/texfig/MC_vitaldynamic_d0002_dI0004_e0006.png><../fig/texfig/MC_vital
+[15<../fig/texfig/MC_vitaldynamic_d0002_dI0004_e0006.png><../fig/texfig/MC_vital
 dynamic_d00002_dI0001_e00006.png><../fig/texfig/MC_vitaldynamic_d00002_dI001_e00
 006.png><../fig/texfig/MC_vitaldynamic_d00002_dI003_e00006.png>]
-<../fig/newfig/Vaccine_A=12_T=5.pdf, id=830, 462.52798pt x 346.89601pt>
+<../fig/newfig/Vaccine_A=12_T=5.pdf, id=878, 462.52798pt x 346.89601pt>
 File: ../fig/newfig/Vaccine_A=12_T=5.pdf Graphic file (type pdf)
 
 <use ../fig/newfig/Vaccine_A=12_T=5.pdf>
 Package pdftex.def Info: ../fig/newfig/Vaccine_A=12_T=5.pdf used on input line 2
-57.
+69.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
-<../fig/newfig/Vaccine_A=20_T=5.pdf, id=831, 462.52798pt x 346.89601pt>
+<../fig/newfig/Vaccine_A=20_T=5.pdf, id=879, 462.52798pt x 346.89601pt>
 File: ../fig/newfig/Vaccine_A=20_T=5.pdf Graphic file (type pdf)
 
 <use ../fig/newfig/Vaccine_A=20_T=5.pdf>
 Package pdftex.def Info: ../fig/newfig/Vaccine_A=20_T=5.pdf used on input line 2
-63.
+75.
 (pdftex.def)             Requested size: 221.95676pt x 166.47113pt.
 
-<../fig/texfig/MCSV_A=12T=5.png, id=832, 455.301pt x 339.669pt>
+<../fig/texfig/MCSV_A=12T=5.png, id=880, 455.301pt x 339.669pt>
 File: ../fig/texfig/MCSV_A=12T=5.png Graphic file (type png)
 
 <use ../fig/texfig/MCSV_A=12T=5.png>
-Package pdftex.def Info: ../fig/texfig/MCSV_A=12T=5.png used on input line 269.
+Package pdftex.def Info: ../fig/texfig/MCSV_A=12T=5.png used on input line 281.
 (pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
 
-<../fig/texfig/MCSV_A=20T=5.png, id=833, 455.301pt x 339.669pt>
+<../fig/texfig/MCSV_A=20T=5.png, id=881, 455.301pt x 339.669pt>
 File: ../fig/texfig/MCSV_A=20T=5.png Graphic file (type png)
 
 <use ../fig/texfig/MCSV_A=20T=5.png>
-Package pdftex.def Info: ../fig/texfig/MCSV_A=20T=5.png used on input line 275.
+Package pdftex.def Info: ../fig/texfig/MCSV_A=20T=5.png used on input line 287.
 (pdftex.def)             Requested size: 221.95676pt x 165.58408pt.
 
 
-LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 286.
+LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 298.
 
-[15<../fig/newfig/Vaccine_A=12_T=5.pdf><../fig/newfig/Vaccine_A=20_T=5.pdf><../f
+[16<../fig/newfig/Vaccine_A=12_T=5.pdf><../fig/newfig/Vaccine_A=20_T=5.pdf><../f
 ig/texfig/MCSV_A=12T=5.png><../fig/texfig/MCSV_A=20T=5.png>]
-<../fig/newfig/MC_onlyvaccineT=5f=40.pdf, id=932, 462.52798pt x 346.89601pt>
+<../fig/newfig/MC_onlyvaccineT=5f=40.pdf, id=980, 462.52798pt x 346.89601pt>
 File: ../fig/newfig/MC_onlyvaccineT=5f=40.pdf Graphic file (type pdf)
 
 <use ../fig/newfig/MC_onlyvaccineT=5f=40.pdf>
 Package pdftex.def Info: ../fig/newfig/MC_onlyvaccineT=5f=40.pdf used on input l
-ine 292.
+ine 304.
 (pdftex.def)             Requested size: 135.89174pt x 101.92056pt.
 
-<../fig/newfig/MC_vaccine_SVA=4_T=5f=40_notiming.pdf, id=933, 462.52798pt x 346
+<../fig/newfig/MC_vaccine_SVA=4_T=5f=40_notiming.pdf, id=981, 462.52798pt x 346
 .89601pt>
 File: ../fig/newfig/MC_vaccine_SVA=4_T=5f=40_notiming.pdf Graphic file (type pdf
 )
  <use ../fig/newfig/MC_vaccine_SVA=4_T=5f=40_notiming.pdf>
 Package pdftex.def Info: ../fig/newfig/MC_vaccine_SVA=4_T=5f=40_notiming.pdf use
-d on input line 298.
+d on input line 310.
 (pdftex.def)             Requested size: 135.89174pt x 101.92056pt.
 
-<../fig/newfig/MC_vaccine_SVA=4_T=5f=40_timing.pdf, id=934, 462.52798pt x 346.8
+<../fig/newfig/MC_vaccine_SVA=4_T=5f=40_timing.pdf, id=982, 462.52798pt x 346.8
 9601pt>
 File: ../fig/newfig/MC_vaccine_SVA=4_T=5f=40_timing.pdf Graphic file (type pdf)
  <use ../fig/newfig/MC_vaccine_SVA=4_T=5f=40_timing.pdf>
 Package pdftex.def Info: ../fig/newfig/MC_vaccine_SVA=4_T=5f=40_timing.pdf used 
-on input line 304.
+on input line 316.
 (pdftex.def)             Requested size: 135.89174pt x 101.92056pt.
 
-<../fig/newfig/RK4Vaccine_f=40_T=5.pdf, id=935, 462.52798pt x 346.89601pt>
+<../fig/newfig/RK4Vaccine_f=40_T=5.pdf, id=983, 462.52798pt x 346.89601pt>
 File: ../fig/newfig/RK4Vaccine_f=40_T=5.pdf Graphic file (type pdf)
 
 <use ../fig/newfig/RK4Vaccine_f=40_T=5.pdf>
 Package pdftex.def Info: ../fig/newfig/RK4Vaccine_f=40_T=5.pdf used on input lin
-e 310.
+e 322.
 (pdftex.def)             Requested size: 135.89174pt x 101.92056pt.
 
-<../fig/newfig/RK4Vaccine_SVA=2_f=40_T=5.pdf, id=936, 462.52798pt x 346.89601pt
+<../fig/newfig/RK4Vaccine_SVA=2_f=40_T=5.pdf, id=984, 462.52798pt x 346.89601pt
 >
 File: ../fig/newfig/RK4Vaccine_SVA=2_f=40_T=5.pdf Graphic file (type pdf)
  <use ../fig/newfig/RK4Vaccine_SVA=2_f=40_T=5.pdf>
 Package pdftex.def Info: ../fig/newfig/RK4Vaccine_SVA=2_f=40_T=5.pdf used on inp
-ut line 316.
+ut line 328.
 (pdftex.def)             Requested size: 135.89174pt x 101.92056pt.
 
-<../fig/newfig/RK4Vaccine_SVA=4_f=40_T=5_timing.pdf, id=937, 462.52798pt x 346.
+<../fig/newfig/RK4Vaccine_SVA=4_f=40_T=5_timing.pdf, id=985, 462.52798pt x 346.
 89601pt>
 File: ../fig/newfig/RK4Vaccine_SVA=4_f=40_T=5_timing.pdf Graphic file (type pdf)
 
  <use ../fig/newfig/RK4Vaccine_SVA=4_f=40_T=5_timing.pdf>
 Package pdftex.def Info: ../fig/newfig/RK4Vaccine_SVA=4_f=40_T=5_timing.pdf used
- on input line 322.
+ on input line 334.
 (pdftex.def)             Requested size: 135.89174pt x 101.92056pt.
 )
 (./conclusion/conclusion.tex)
 
-LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 55.
+LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 55.
 
-[16<../fig/newfig/MC_onlyvaccineT=5f=40.pdf><../fig/newfig/MC_vaccine_SVA=4_T=5f
+[17<../fig/newfig/MC_onlyvaccineT=5f=40.pdf><../fig/newfig/MC_vaccine_SVA=4_T=5f
 =40_notiming.pdf><../fig/newfig/MC_vaccine_SVA=4_T=5f=40_timing.pdf><../fig/newf
 ig/RK4Vaccine_f=40_T=5.pdf><../fig/newfig/RK4Vaccine_SVA=2_f=40_T=5.pdf><../fig/
 newfig/RK4Vaccine_SVA=4_f=40_T=5_timing.pdf>]
-Overfull \hbox (5.03339pt too wide) in paragraph at lines 62--63
-[][]\T1/pnc/m/n/10 Ramachand-ran, Prajit, Bar-ret Zoph, and Quoc V. Le. SS-ear-
-ching for ac-ti-va-tion func-tions."(2018).[] 
- []
 
+LaTeX Warning: Reference `LastPage' on page 18 undefined on input line 168.
 
-LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 168.
-
-[17]
+[18]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
  (./main.aux)
@@ -2043,14 +2058,14 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
 )
 
 Here is how much of LuaTeX's memory you used:
- 36686 strings out of 494693
+ 36712 strings out of 494693
  125200,1144653 words of node,token memory allocated
- 530 words of node memory still in use:
+ 537 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 54 glue_spec, 1 write nodes
-   avail lists: 1:2,2:33,3:336,4:1093,5:257,6:3125,7:80,8:27,9:861,10:290
- 38839 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:34,3:344,4:1022,5:226,6:3407,7:73,8:27,9:769,10:275
+ 38852 multiletter control sequences out of 65536+600000
  95 fonts using 3741963 bytes
- 64i,12n,56p,1253b,1581s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 64i,12n,56p,1253b,1727s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}<</usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><</usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><</usr/local/texliv
@@ -2064,10 +2079,10 @@ dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><</usr/local/texlive/2015/texmf-di
 st/fonts/type1/urw/helvetic/uhvb8a.pfb><</usr/local/texlive/2015/texmf-dist/font
 s/type1/urw/ncntrsbk/uncb8a.pfb><</usr/local/texlive/2015/texmf-dist/fonts/type1
 /urw/ncntrsbk/uncr8a.pfb>
-Output written on main.pdf (18 pages, 1196164 bytes).
+Output written on main.pdf (19 pages, 1215427 bytes).
 
-PDF statistics: 1262 PDF objects out of 1440 (max. 8388607)
- 515 compressed objects within 6 object streams
- 75 named destinations out of 1000 (max. 131072)
+PDF statistics: 1310 PDF objects out of 1440 (max. 8388607)
+ 531 compressed objects within 6 object streams
+ 77 named destinations out of 1000 (max. 131072)
  208 words of extra memory for PDF output out of 10000 (max. 10000000)
 
